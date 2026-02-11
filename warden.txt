@@ -1,0 +1,84 @@
+W.A.R.D.E.N
+
+UI:
+	Clean, Monochrome desktop clearly aged, clunky buttons, big mouse cursor, crt clearly on a in-        universe monitor
+
+Gameplay:
+	
+	Taking place entirely within the monitors, a top down view of the room using floor diagrams, and coloured dots to represent the prisoners blue, orange, red, green, complementary colours to easily keep track of the prisoners, white dots representing the monsters, and will turn crimson if the monsters are alerted/activated using a pen to create pathways for the prisoners to follow.
+
+Time / Tension:
+
+	Time and tension is a crucial part of gameplay experience, time being a currency the player unknowningly exchanges with the game constantly whether thats to check the cameras for a better look, to describe the siutuation to prisoners to calm them down or even inputting code for the doors. Combat is a 	last resort as the prisoners have chunks of metal on their heads with a tiny slit in which to see through 	as they are max security, and therefore IF combat is to be ATTEMPTED a remote control access is given to 	the warden allowing the player to clunkily patch into their bodycam like perspective and try and shoot 	things, and "fight" accessing the remote control and disconnecting to switch to someone else all takes 	time and is NOT instant. And as a fun side thing im not sure if it will be implemented or not, but when 	shit hits the fan and enemies are alerted AT ALL then the player has the **option** to click and hold the 	red button on their monitor "GTFO" which will set off the alarms but make extract immediate HOWEVER, they 	still have to REACH EXTRACT, therefore instead of getting to extract and waiting like usual if they make 	it they can immediatly bail and lose items and progress this can be used if a prisoner you really want is 	going to die, or if you have a flair for cinematicness (me ngl) also i can see this being cheesed easily 	so NO you CANNOT just activate the button when you're at the end of the mission to just skip the waiting 	time and get out instantly, the button will only appear if A, Enemies are alerted and B, If you are at 	least a specific number of rooms away. 
+	theres also a speed slider in the bottom left corner that allows you to control how fast your prisoners 	move, as well as toggle buttons above it with "Run" "walk" "Crouch" for obvious reasons, at the top of 	the screen above the map is another tab labeled "Cam" which when clicked takes you to an empty terminal 	instead of just having a camera for that room you instantly start viewing that would be TOOOO EASY!!! 	nononononono instead you have to memorize the room that theyre in so you can type the appropriate code 	for it, e.g the player sees a dot pulsating and needs a visual on whats happening, and clicks on "Cam" it 	takes a few seconds to load as the hardware is slow, and then they realize they dont know the name of the 	room and have to click back, that costs precious seconds that skyrockets tension ESPECIALLY if comms 	start going "uhhh WE"VE GOT A PROBLEM HERE" and you're panicking going "shitshitshitshit!!" so in short: 	In order to access the cams you must type in "Cam_room_233" to which the terminal takes a few seconds 	returning things like "activating cam_223.....openeing lens.....emergency power initiated. Viewport 	active" and THEN the player can see through a fish lens-like camera and view the environment. 
+	When activating the Movement function an animation plays of the first person camera looking down grabbing 	a chunky pen and quickly trying to plug it in and THEN the player may use it and the pen and hand holding 	it is raised above the monitor and replaces the cursor so your mouse moves the hand and pen around, if i 	want to be really cruel i could implement a stress system for the warden that you have to manage as well 	otherwise things like clicking on other tabs or grabbing the pen, things that take a little time can take 	longer e.g you go to plug the pen in and miss the port and keep jamming it in until it plugs it, it only 	costs a few more seconds but could be vital, this also affects things like clicking on other tabs like 	clicking on the "cam" tab if you're stress level is too high the mouse might..."move" a few inches `away 	from the tab just to fuck with the player. 
+
+Progression:
+Rather than a new stream of constant new enemy types, instead the focus will be on the first batch of monster types and navigating around them and dealing with them, and changing objectives and environments to make you think at different angles making the rules static but the field shifting, There will be new enemies being introduced throughout but sparingly and when it makes sense not just for the sake of it.
+
+Prisoners:
+Prisoners are randomly generated (except for a few rare ones that will be pre-built with specific purposes) 
+They will have Bio's Code names, Stress levels, unique characteristics, abd stats. The second monitor will contain the Health, Icon, stress levels, and emotional level ranging from "ok." to "terrified" to "Depressed" to "determined" etc, also the icons will not be static images but rather a saturated cam of just their head inside the helmet. 
+
+Characteristics:
+characteristics change the entire fundamentals of the game, they change how you approach situations, missions and tactical encounters, as they are something out of your control. here are some of the types of characteristics that can be randomly assigned to Prisoners;
+- Anger Issues = Prisoner will become agitated and have a higher chance of engaging in combat without 	being told so. Strategic ideas: Could be sent into a room with one or two monsters alone and
+	locking him in meaning his stress levels rise and he starts attacking unprompted and since there
+	is a low amount of enemies even if one wakes up it wont alert the horde, and its HOPEFULLY 2 less
+	enemies to deal with, also doing violence and killing things lowers their stress and has a chance
+	for their emotional level to raise to Determined level. 
+- Hesitant = Prisoner will be hesitant more and more with stress levels, for instance at the beginning of 	the mission the prisoner will sometimes be hesitant and be slower in moving and doing certain 
+	actions, but a fairway through the level if theyre stress levels have risen then they will be 
+	VERY hesitant and slow and if the stress level is nearing its max they will just stop doing
+	things at random and just refuse. Tactical ideas: First thought is its mainly luck for one idea, 
+	say the player orders them to move somewhere and mistimes it accidentally telling them to move 
+	when a monster is in warned state (movement would cause an alert) they refuse at random bc of the
+	hesitant characteristic, and that ends up saving the run, now for an actual TACTICAL advantage? 
+	The positives would mainly be in the emotion wheel, as because they would be Hesitant and 
+	"scared" as a result of it, and "scared" can make nearby prisoners change moods to something more 
+	positive.
+- Clumsy = As the name suggests, it makes the said prisoner clumsy which affects will vary on stress levels like everthing else, on low stress they will maybe trip or lose balance by just standing still causing movement it wont cause an full alert on monsters if they are clumsy on a low stress level but if maxed out it will absoloutely trigger enemies, as i feel having it trigger enemies on a low stress level is just unfair, but essentially this will make the prisoner trip over randomly, or mess up certain actions, their accuracy is also ofc lowered as a result of this.
+- Natrual Born Leader = This characteristic can positivley affect other prisoners nearby, the prisoner that has this characteristic themselves will be slightly faster and will take slower to get their stress levels up, using commands they can also improve the stress levels of other prisoners.
+-- You get it.
+
+Loss:
+	Prisoners when they are killed or die will be gone permenantly and go to the database of deceased 	prisoners  where you can view prisoners you've lost, there could be a Community implemented 
+	system where players can share their most treasured prisoners, MAYBE giving the ability to give a
+	bio on them though it would have to be monitored, so maybe instead a short sentance implying how 
+	they died or how much you treasured them using pre-written words? e.g "Baron Ledger - Braved The 	Deep Alone. Legend." or something like that there would obviously be some goofy words to pick as 	well. This is a mere idea. Along with the sentance and name of the prisoner would be the amount 
+	of extracts as well as failed expeditions, and their level so one would typically look like "Baron Ledger. Braved The Deep Alone. Legend. 10 successful Expeditions 1 unsuccsesful expediton. Level 5. Final words: "THEYRE ON MY ASS!!"" 
+
+Upgrades:
+	In the missions cargo can be found throughout which if found and successfully extracted with this will give access to specific upgreades and tiems, this means either upgrading your computer to get slightly faster speeds however just because you're upgrading your system does NOT mean it will be easier or faster, it will merely substitute the loading times with other unique time stealers, for example, getting a faster internet will make your computer vulnerable to hacks and bugs from rival companies (lore) that will stop you from doing anything until you reboot the PC, etc, If a prisoner picks up cargo they cannot fight, run, or use terminals, they can only walk you may want to think about passing the cargo to other prisoners if theyre stress level is too high as depending on their characteristic they could lose the cargo, eg if they have the "Anger issues" one they could destroy it if too stressed and if they have the "clumsy" one they could drop it which just has a chance of permanently losing it, its not a 100 percent chance. 
+
+Mission types:
+	Mission types would consist of gathering intel on environments to downloading files from terminals to extract with, to grabbing specific cargo. To powering specific devices and getting out within the time limit. The time limit wouldnt appear until the mission is complete as having a time constraint would probably be more tense but it would take more fun out of it than make it more challenging, the game rewards Quick thinking but Slow movement. 
+
+
+Map updating:
+Maybe when prisoners enter a new room the player dosent get to see the layout immediatly and has to wait for the prisoners to upload schematics its not a long wait and it would pose much threat as enemies wouldnt be placed near the doors if this was the case but it would be more immerseful,
+
+Enemies are seen on the radar-like map that you see all the prisoners on, when monsters are suspicious and listen for you the dots will pulsate and send out little shockwaves on the map, to signify to the player to STOP FOR GODSAKE STOP. 
+
+On the second terminal where the Prisoners are located and shows their health, stress levels, icons, and emotional states, there is also a button in the top left corner "Commands" which allow you to directly communicate with the prisoners, using pre-set phrases and words to chain together, for example lets say a prisoner is sneaking by and since they cant see very well at all most times they will not see an enemy and keep walking so, in order to make them cautious in an area and not move so non-stop you can issue a series of commands like so, "Careful ... Move quietly ... Move slowly ... North west ... Enemies" and receive confirmation from them "oh god..." and now they will act accordingly until you tell them to stop with a "group reset" command or until they die.
+
+
+
+emotional states (rock paper scissors):
+
+Emotional states are perpetual and constant, and change with stress levels. 
+Terrified can turn nearby prisoners from calm to scared, from worried to angry, from sad to scared, from ok to anxious
+
+Angry can turn nearby prisoners from calm to anxious, anxious to ok, sad to angry, angry to angry.
+
+Different emotional states will affect nearby prisoners therefore affecting performance and variables in a situation the player has to take account for and either solve or use to their advantage.
+
+
+Enemies:
+	Enemies work almost the exact same as GTFO Movement, light and noise all impact sneaking around them, so being extremely careful is paramount to survival, as for unique enemies so far, we have the EMPulsator Which is another infected creature instead of the vertical jaw head they have a disgusting lump of flesh in the shape of a cone as their head, they are an idle creature that dont move unless alerted, and every couple of seconds they have a coughing fit which releases an emp like effect that disrupts camera and commands for a little bit, however since they cough that means the prisoners can hear them which means MOST times they will know to stop and not keep moving, these creatures are audio based as their gross cone head makes it so they cant see at all, so light dosent bother it.
+
+Immersion:
+	Upon starting the game it should take a screenshot of your desktop and start the gameup just showing your desktop so the player is unaware, and then apply a crt filter with the in-universe terminal screen now showing your desktop and a cursor opening the CMD (fake) and typing in "Begin_Warden_OPS_1211" the terminmal responds with some starting up code, and then the OS booting screen appears and boom youre in game, all missions you recieve should be from your boss and everything should bleed immersion stitching everything together.
+
+Tools:
+	Tools can be brought to missions that bring unique abilities such as the biotracker being the one 	that is best for beginners, because if you dont bring the biotracker and instead bring the reinforce door which is a code that locks dowmn a door so hard it cant be broken through and can only be activated throgugh some time based code in the terminal and makes every room behind it inaccessable from then on, and bc of no biotracker it means depending on cameras for view points and seeing monsters which makes things more difficult
