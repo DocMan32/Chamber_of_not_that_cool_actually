@@ -1,0 +1,45 @@
+idk
+You wake up in a bed, a door lies in front of you, a [[bookshelf]] on the side of the room, and a [[metallic door]] that lies shut. Your head is pounding and remembering yesterday is extremely difficult...
+a voice keeps appearing in your head describing its own thoughts, and being rather critical of you. 
+
+
+[["Oh my god....anything could be outside that door! a monster, an alien a creep!!!"]]
+[["WOOOO A DOOOR LEETS GOOOOOO."]]
+[["Boring" ]]
+[["can we not go?"]]
+Upon inspecting the bookshelf a variety of different books stand out, from [["Tectonic plates shifting and why they do it."]]. [["Household DIY recipies for being an armchair pyschologist by Dr Amanda Hardling"]], "[[A guide to stealing]]" and of course, [["Buy my book."]] 
+You inspect the metallic door that lies shut, its not rusted but looks old, theres a keypad next to the door, it looks strikingly familiar.
+
+[[Room]]
+
+(if:(history: where its name contains "\"Boring\"")'s length is 1)[[Remember the Code!]]
+Thanks. 
+
+Chump.
+[[bookshelf]] 
+Chapter 32 Mine.
+The mindset of a thief is one most often looked over by the majority of people and yet it is one of the most important things you must have when becoming a thief, keeping the mindset of showing off to the police, and sending letters daily to inform them of how good you duped them. And remember, a thief's most important tool, is his intelligence, 
+
+Chapter 33 
+If you received the flyer with this book claiming you've won a free cruise. then please, Go to the written address and why not go after you've duped the police and show them who's boss, I bet they wont be expecting you!
+
+chapter 34
+Make as much noise as physically possible---
+
+[[bookshelf]] 
+Introduction;
+
+Hello, my name is Dr Amanda Hardling, I've been a household full time proffessional armchair psychologist for the past 4 years and this is my 5th book. In this book, ill go over how to read and understand all the people you live with and how to deter all the annoying thing they say to you and how you are most likely right, who am i kidding! you bought this book of course you're more right! 
+
+In rural Gerorgia I was born half a millenia ago, I've fought through all 1 world wars. and have gathered so much experience over the years I have to constant;ly turn down letters of Tv producers asking me to come onto their show im simply too busy to do them! (my postal address is at the end of this book) 
+[[bookshelf]] 
+Well, to put a $40 300pg book short:
+They were rude.
+
+[[bookshelf]] 
+OH MY GOD YOU'RE RIGHT ITS A DOOR!!!
+
+HEY I THINK YOU'RE STARTING TO REMEMBER THE CODE!
+
+[[metallic door]] 
+[[metallic door]] 
