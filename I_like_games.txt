@@ -1,0 +1,79 @@
+
+
+
+EDUCATED TECHNOLOGY.
+	(a warbond.)
+
+Expendable Barrel
+
+limited durability, backpack item, can be used by teammate to attach to guns that require their own backpack
+2 - 3 shots before it breaks
+ eg 
+  attach secondary barrel onto a railgun allowing for dual fully charged shots doing absurd damage
+	can also be attached to heavy and normal machine guns for overclock of power 
+	
+Armour description - POW / Prisoner like attire dark greys and red glow, solid helmets with one slit to 
+see through, lock and chain design? variated voice lines (not only for this class maybe having a bit of 
+autotune but as well as stealth lines for both normal divers and these divers so instead of screaming wh
+ilst doing stealth stuff you whisper them) 
+
+weapons -
+	Automated Freedom SSR90 Heavy Autocannon X Shotgun 
+		[[Shoots Chunks of metal with designs inspired by the autocannon]]
+	Catered Vengance 23FDS Heavy penetrating Sniper rifle bolt action 
+		[[bolt action, not many rounds, DIY feel to its design]]
+
+Armour Passives - 
+	Sacraficial Trade -- Upon dying you drop a resupply pack for teammates to use\
+
+	Educated Traitor -- Has unique one time stratagem to disrupt Bot drops / Alert and give an all cl
+			    ear
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+Ideas and systems i would die for if they were in the game
+
+
+A warbond themed around each faction, not being them of course (unless....?)
+but rather, say, a bug diver one with armour refrencing to like bug anatomy being shown proudly as trophies
+a bot one like i said before where its for ones that have been captured and destroyed, and im not sure 
+for the illuminate one cause they can be a bit funky.
+
+An Eagle 1 position, limited, it would be a bit annoying to most players most likely but having a queue, 
+to be an eagle 1 pilot who is assigned to quick play and gets to fly the jets around shooting down automaton
+ships in the sky throughout the match and whenever someone calls down a stratagem for one e.g eagle 500
+an area would glow on the ground as to where you need to launch it, whether you actually shot where you were
+supposed to or not the eagle would land there anyways because being given a random player whos an Eagle 1 
+who just wants to mess with the divers and not put them where they need to be would be very annoying, so
+maybe have a system for players who dont want eagle 1's joining and one for those who do.
+
+Automaton cruiser ships that we can infiltrate and have to fight our way to the core, stratagems only
+avalible in cleared rooms otherwise the super destroyer cant reach them e.g helldivers get shot into the 
+docking bay and clear it out of enemies and then activate a terminal they can now call in stratagems
+(for support weapons) in the hangar bay as the shields are down for that sector, they move into the hallway
+and shoot through there and activate another terminal at the end of it, now they can get stuff getting shot
+in through the celing, and having super earth breathe shields surrounding the drop pods so the holes they 
+create when getting shot through dont suck everything out of the ship. And then for mission objectives to 
+be either extract flight plans intel, destroy core, etc, 
+
+spaceships.
+i know its a longshot, its essentially an entire new system they would have to code but as far as things i
+want so badly in this game, the ability to participate in dogfights in space would be incredible, 
+ESPECIALLY if we had to go through having a space fight and reaching the destination of the automaton cruiser
+shut down the shields and then start the next part of the mission, which is described above, 
+
+and finally something that MIGHT, MIGHT be possible with the introduction of cyberstan although it hasnt 
+been shown or talked about, a mission type where we go Through an automaton facility like INDOORS, shoot 
+outs in hallways, holding doors as chokeholds, grabbing intel or destroying the facility, or extracting 
+with a specific item, or EVEN (jimmy neutron brain blast) a mission type where you have to go in and save
+captured SEAF soldiers who then accompany you on the exit
+
+--- 
+Ideas-i-just-had-and-think-might-be-cool-but-im-not-going-to-think-about-too-much.
+
+Tesla gates, you have 6 - 7 staffs which you can manually place on the ground, you can then activate it
+by shooting it (maybe only activated by gun with tesla? or just a remote) and you now have a wall of tesla
