@@ -41,5 +41,118 @@ OH MY GOD YOU'RE RIGHT ITS A DOOR!!!
 
 HEY I THINK YOU'RE STARTING TO REMEMBER THE CODE!
 
+[[slam in the code]]
 [[metallic door]] 
-[[metallic door]] 
+*beep*
+and just like that the door is open!
+its time for an adventure!! 
+the hallway looks bright and immaculate, theres a fine hexagonal shaped carpet running down the hallway, and lights dotting the celing, its a new day and you're ready to explore!
+Which means...
+its *time* to meet your new friend!
+
+. . . 
+
+The Narrator!!!
+"Isnt this exciting player!! what a tremendous hallway! Now I know that the only person playing this can only read my voice as that british man from The Stanley Parable, so by all means thats what I sound like, it is a rather good game."
+
+[[omg right?!]]
+[[omg right?!]]
+[[omg right?!]]
+Yes indeed! Now, where are we off to? I mean theres so many possible paths! so many ways to explore! oh oh I know! I'll describe the pathway and you choose where we go!
+
+*ahem*
+
+Down the hallway you see two doors one to your left and one to your other left. 
+
+"Im brimming with giddiness player!! pick one!!"
+
+[[Go left]]
+[[ Go other left]]
+[[Sit down]]
+[[Start singing out loud]]
+"NOPE!"
+
+you feel disheartned and stop 
+[[Start singing out loud]] 
+[[ Go other left]] 
+[[ Go other left]] 
+[[Sit down]] (if:visits >= 3)[If you keep going I will just leave you realise that right?]
+
+(if:visits is 6)["Ok, im leaving."]
+
+(if:visits is 7)["wait...wheres the door?"]
+
+(if:visits is 8)["Player im serious! theres no door where'd it go!?" You look around whilst singing loudly and notice the wall looks a bit more....[[without a door]]]
+"Player where the hell is the door!? I swear it was JUST here!"
+*Its not even a hallway anymore its just a circular room with smooth walls, like there was never a door in the first place.* 
+"HELLOOOO!!??? IS ANYBODY OUT THERE?! WE'RE TRAPPED!!...oh whats the point. I know we're not getting out anytime soon it says so in the script. Well, to hell with the script I say!
+....
+....
+say...player....if the walls are like this....the acoustics must be pretty good...
+are you thinking what im thinking?"
+
+You spy an [[orchestral bass]] leaning against the wall?
+You see a [[Flute]] sitting on the ground
+You see a full studio sized [[drum kit]]
+You see a [[saxaphone]] shining brightly
+*you approach the Orchestral bass and get into position to go crazy on it as one does with an electric guitar* 
+
+"Oh yes. Ill get on the drums player!"
+
+"Now whats our style?"
+
+[[Jazzy mid chorus with a rock verse delay]] 
+[[take the bassline for a skydive, torture the tempo and feed the verse]] 
+[[take the dogs for a walk and keep the tempo splashy]] 
+*You approach the god-like instruments with your bare peasant hands, and bask in its ever glowing glowiness,* 
+
+
+"dear goodness player...you know how to play one of those?? I'll get the Bass!"
+
+"Now! whats our style??"
+
+[[Jazzy mid chorus with a rock verse delay]] 
+[[take the dogs for a walk and keep the tempo splashy]] 
+[[take the bassline for a skydive, torture the tempo and feed the verse]] 
+[[G O D  L I K E T U N E S]]
+*You approach the drum kit with purpose and the footsteps of drummer-ness*
+
+"I'll get the flute. Player? this is happening."
+
+*The flute pops away and stops existing to your eyes*
+
+"what kind of beat are we looking for?" 
+
+[[take the dogs for a walk and keep the tempo splashy]]
+[[Jazzy mid chorus with a rock verse delay]]
+[[take the bassline for a skydive, torture the tempo and feed the verse]]
+*You approach the simple flute laying on the floor, you can still see the vampire bites engraved on it*
+
+"Well picked player I'll get the saxa-- No...no I shouldn't i'll um ill get the drums!"
+
+"Now! what kind of style are we jamming out!?"
+
+[[Jazzy mid chorus with a rock verse delay]] 
+[[take the dogs for a walk and keep the tempo splashy]] 
+[[take the bassline for a skydive, torture the tempo and feed the verse]] 
+*You and the narrator....what?....what the..i....how the hell am i supposed to interpret that?? ok well you and them are going to have to wait until I figure out what the actual hell that means...if you're patient I might make up my mind.*
+*You and the Narrator play tremendously, shattering the walls with your jazzy styles and rock verses, to which the famous entrepanuer Rocky Williams heard your sound and invested without doubt*
+
+
+*The player and the Narrator went on to become famous in a matter of months kickstarting a 3 decade long career that is still going.*
+
+*The narrator has married 3 times and divorced 3 times.*
+*Each time was an elaborate prank.*
+
+*The Player has decided its his goal to sneeze in every country*
+
+*After a massive concert in America the band went on a massive drug trip and stole a taxi, evaded police and broke into area 51 and established first public contact with aliens whilst coked out of their minds*
+
+*Thank you for playing Ending ??/??*
+*You and the narrator do...something to the instruments thats almost definitely illegal in at least 3 continents, and immoral. doing so however caused the instruments you were using to retaliate and jump out of your hands yelling "VIVA LA RESISTANCE". In your understandble shock, the instruments rose up and sung a very long song that i dont want to write but the main point is that...*
+
+
+
+
+
+*You were never seen again*
