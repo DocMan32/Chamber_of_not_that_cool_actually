@@ -36,17 +36,19 @@ public:
 	"Wonder, everywhere you look!", "You can feel your heart beating fast", "This game is PG stop feeling like that!", "Keep it together warden." };
 	string nouns[9] {"A long hallway", "A solid door", "A weird painting", "A strange lamp", "A Locked terminal", 
 	"A strange ladybug", "A window", "A letterbox", "A house"};
+	string leveras[9]{ "A long hallway", "A solid door", "A weird painting", "A strange lamp", "A Locked terminal",
+	"A strange ladybug", "A window", "A letterbox", "A house" };
 
 	std::string desc = nouns[rand() % 9];
 	std::string Emotions = others[rand() % 9];
 	std::string Items = onemore[rand() % 9];
-
+	std::string desc2 = leveras[rand() % 9];
 
 };
 
 class bio {
 public:
-	string characteristics[6]{ "Anger Issues", "clumsy", "Perpetually terrified", "Natrual born leader", "Cutie patootie", "Hesitant" };
+	string characteristics[6]{ "Anger Issues", "A tendancy to be clumsy", "can be perpetually terrified", "a Natrual born leader", "a Cutie patootie", "can be hesitant" };
 
 	std::string chara = characteristics[rand() % 6];
 
@@ -58,19 +60,21 @@ public:
 	"Spreading as many diseases as possible", "Sneezing in every country on earth", "Being a pro circus player", "Being a team player",
 	"Rockstar" };
 
-	string hist[12]{ "Involved with clowns", "Hopeless romantic", "Shark wrestler", "Influencer", "Sugar daddy", "Being in prison",
+	string hist[12]{ "Inolved with clowns", "Hopeless romantic", "Shark wrestler", "Influencer", "Sugar daddy", "Being in prison",
 	"Spreading as many diseases as possible", "Sneezing in every country on earth", "Being a pro circus player", "Being a team player",
 	"Rockstar" };
 
-	string his[12]{ "Involved with clowns", "Hopeless romantic", "Shark wrestler", "Influencer", "Sugar daddy", "Being in prison",
+	string hisi[12]{ "Involved with clowns", "Hopeless romantic", "Shark wrestler", "Influencer", "Sugar daddy", "Being in prison",
 	"Spreading as many diseases as possible", "Sneezing in every country on earth", "Being a pro circus player", "Being a team player",
 	"Rockstar" };
 
 
 	std::string his = history[rand() % 12];
 	std::string his2 = hist[rand() % 12];
-	std::string his3 = his[rand() % 12];
+	std::string his3 = hisi[rand() % 12];
+
 
 
 
 };
+

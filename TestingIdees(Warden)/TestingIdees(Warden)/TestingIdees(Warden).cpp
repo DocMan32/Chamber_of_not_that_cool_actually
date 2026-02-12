@@ -17,14 +17,14 @@ int FirstRoom(Rooms& Theroom) {
 	srand(time(0));
 
 	int P = 0;
-	cout << " " << Theroom.desc << " " << Theroom.desc << " " << Theroom.desc << " \n";
+	cout << " " << Theroom.Emotions << " " << Theroom.desc << " and " << Theroom.desc2 << " \n";
 	for (P = 0; P < 3; ++P)
 	{
 		string Pchoice;
 		cin >> Pchoice;
 		std::getline(std::cin, Pchoice);
 		std::cout << Pchoice;
-		
+				
 
 
 	}
@@ -50,6 +50,65 @@ int main() {
 	Prisoners subject;
 	Rooms Theroom;
 
+
+	// Keeping track of current character statistics -->
+	if (charinfo.his3 == "Involved with clowns")
+	{
+		std::cout << "You. ARE. a goofy goober.";
+	}
+	else if (charinfo.his3 == "Influencer")
+	{
+		std::cout << "Thats not a job bro.";
+	}
+	else if (charinfo.his3 == "Shark wrestler")
+	{
+		std::cout << "What?! How!?? Do you at least get insurance!???";
+	}
+	else if (charinfo.his3 == "Hopeless romantic")
+	{
+		std::cout << "Big oof..";
+	}
+	else if (charinfo.his3 == "Being in prison")
+	{
+		std::cout << "With the dementors?....say hi to mike for me";
+	}
+	else if (charinfo.his3 == "Spreading as many diseases as possible")
+	{
+		std::cout << "Why???";
+	}
+
+
+
+
+
+
+
+	if (charinfo.his2 == "Involved with clowns")
+	{
+		std::cout << "You. ARE. a goofy goober.";
+	}
+	else if (charinfo.his2 == "Influencer")
+	{
+		std::cout << "Thats not a job bro.";
+	}
+	else if (charinfo.his2 == "Shark wrestler")
+	{
+		std::cout << "What?! How!?? Do you at least get insurance!???";
+	}
+	else if (charinfo.his2 == "Hopeless romantic")
+	{
+		std::cout << "Big oof..";
+	}
+	else if (charinfo.his2 == "Being in prison")
+	{
+		std::cout << "With the dementors?....say hi to mike for me";
+	}
+	else if (charinfo.his2 == "Spreading as many diseases as possible")
+	{
+		std::cout << "Why???";
+	}
+
+
 	string hello = "Booting systems...\n...";
 	int x = 0;
 	while (hello[x] != '\0')
@@ -70,27 +129,32 @@ int main() {
 		Sleep(90 + rand() % 150);
 		b++;
 	};
+	std::cout << "\n";
 	std::cout << "Information of prisoner is as follows: \n";
 	charinfo.chara; // Characteristics
 	charinfo.occupation; // Occupation 
 	//hmm this gives me an idea...
 	//presenting something cool:
-	std::cout << subject.word << "recently worked as a " << charinfo.occupation << " and were arrested at an unknown date\n";
+	std::cout << subject.word << " recently worked as a " << charinfo.occupation << " and were arrested at an unknown date\n";
 	std::cout << "The subject appears to have " << charinfo.chara << " This information should be used WISELY warden. Theyre history\n";
 	std::cout << "appears to be full of " << charinfo.his << ", " << charinfo.his2 << " and " << charinfo.his3 << " Keep that\n";
 	std::cout << "in mind warden. Theyre lives are in your hands.";
 
+	system("pause");
+	
 	int c = 0;
+	
 	cout << "\n\nMission Briefing received 192.1.233.1 10/09/2xxx\n";
 	cout << "Movement detected 500m~ down. Initiate scanning routine. Extract environmental information. Hades lives.\n";
 	cout << "Do you accept this briefing?\n\n";
 	string choice = "Enter your choice: Y / Y?";
 	while (choice[c] != '\0')
 	{
-		cout << choice[c] << "\n";
+		cout << choice[c];
 		Sleep(50 + rand() % 60);
 		c++;
 	}
+	std::cout << "\n";
 	string confi;
 	cin >> confi;
 	cout << "noted.";
