@@ -1,0 +1,7 @@
+﻿  TestingIdees(Warden).cpp
+C:\Users\s252531\Documents\Code_things\TestingIdees(Warden)\TestingIdees(Warden)\Prisoners.h(65,14): error C2059: syntax error: '}'
+  (compiling source file 'TestingIdees(Warden).cpp')
+  
+C:\Users\s252531\Documents\Code_things\TestingIdees(Warden)\TestingIdees(Warden)\TestingIdees(Warden).cpp(12,7): error C2059: syntax error: 'using namespace'
+C:\Users\s252531\Documents\Code_things\TestingIdees(Warden)\TestingIdees(Warden)\TestingIdees(Warden).cpp(12,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\s252531\Documents\Code_things\TestingIdees(Warden)\TestingIdees(Warden)\TestingIdees(Warden).cpp(108,1): error C1004: unexpected end-of-file found
