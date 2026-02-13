@@ -126,6 +126,7 @@
     <ClCompile Include="TestingIdees(Warden).cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Prisoner2.h" />
     <ClInclude Include="Prisoners.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

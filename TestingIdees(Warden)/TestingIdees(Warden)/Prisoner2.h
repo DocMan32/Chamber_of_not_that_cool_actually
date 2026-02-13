@@ -1,4 +1,5 @@
 #pragma once
+#pragma once
 #include <iostream>
 #include <string>
 #include <random>
@@ -8,9 +9,8 @@
 #include <iterator>
 #include <ctime>
 #include <cstdlib>
-#include "Prisoner2.h"
 using namespace std;
-class Prisoners {
+class Prisoner2 {
 
 public:
 
@@ -18,7 +18,7 @@ public:
 		"Arin", "Dan", "Jack", "Sean", "Mark", "Henry", "Iris", "Lucy", "George" };
 
 
-	int Prisoner1hp = rand() %  101;
+	int Prisoner1hp = rand() % 101;
 
 	int STRESS = 10;
 
@@ -28,13 +28,9 @@ public:
 	//choice remembering...
 	int wrongchoice = 0;
 
-	string Speedlvl = "Normal";
-
-	
-
 };
 
-class Rooms {
+class Rooms2 {
 public:
 	string onemore[9]{ "An empty table", "A Toolbox", "A Sword", "An Empty room dust covers the walls", "A Usb with a label",
 	"A Unicorn Wizard's staff", "A Hat. A great Hat.", "A Key", "A Stick" };
@@ -53,7 +49,7 @@ public:
 
 };
 
-class bio {
+class bio2 {
 public:
 	string characteristics[6]{ "Anger Issues", "A tendancy to be clumsy", "can be perpetually terrified", "a Natrual born leader", "a Cutie patootie", "can be hesitant" };
 
@@ -86,19 +82,19 @@ public:
 
 };
 
-void Other() {
+void Other2() {
 	int goofy = false; int circusboy = false; int noromeo = false; int sharkwrestle = false;  int influencer = false; int germo = false; int sneeze = false; int rockstar = false;
 
-	bio bios;
+	bio2 bios;
 
-	
+	int selected;
 
 	int lsts[8]{ goofy, circusboy, noromeo, sharkwrestle, influencer, germo, sneeze, rockstar };
 
 	int index = 0;
 	for (int scroll : lsts)
 	{
-		
+
 		if (bios.his3 == "Involved with clowns")
 		{
 			goofy = 1;
@@ -131,5 +127,3 @@ void Other() {
 	//NOW TO FOCUS ON EXPLORATION!
 	//...and do the assessments at home....
 }
-
-

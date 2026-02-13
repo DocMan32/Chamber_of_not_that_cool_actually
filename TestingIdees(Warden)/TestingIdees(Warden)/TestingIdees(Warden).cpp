@@ -7,8 +7,9 @@
 #include <thread>
 #include <Windows.h>
 #include <search.h>
+#include <cctype>
 #include "Prisoners.h"
-
+#include "Prisoner2.h"
 using namespace std;
 
 /*
@@ -19,30 +20,15 @@ if (Pchoice == "")
 
 */
 
-int FirstRoom(Rooms& Theroom) {
-	srand(time(0));
+int FirstRoom(Rooms& Theroom, Prisoners& subject, bio& charinfo,
+	Prisoner2& Prisoner_2, bio2& Bio_2);
 
-	int P = 0;
-	cout << " " << Theroom.Emotions << " " << Theroom.desc << " and " << Theroom.desc2 << " \n";
-	for (P = 0; P < 10; ++P)
-	{
-		string Pchoice;
-		std::getline(std::cin, Pchoice);
-		
-		// This will be where the big ass IF statement will be:
-		if (Pchoice == "A weird painting")
+/*
+if ()
 		{
-			std::cout << "cool painting";
-		}
-		else
-		{
-			std::cout << "Big ol' Nope on that one chief";
-		}
-	}
-	return 0;
-}
 
-
+		}
+*/
 
 
 int main() {
@@ -63,6 +49,9 @@ int main() {
 	bio charinfo;
 	Prisoners subject;
 	Rooms Theroom;
+	Prisoner2 Prisoner_2;
+	bio2 Bio_2;
+
 	
 
 	// Keeping track of current character statistics -->
@@ -106,7 +95,7 @@ int main() {
 		x++;
 	};
 	
-
+	
 
 	int b = 0;
 	cout << "\nThe prisoner you are assigned is: \n";
@@ -146,17 +135,168 @@ int main() {
 	std::cout << "\n";
 	string confi;
 	cin >> confi;
-	cout << "noted.";
+	
 	if (confi == "n" || confi == "N" || confi == "NO" || confi == "no") {
 		subject.wrongchoice = 1;
+		std::cout << "noted.";
 	}
 	else if (confi == "Y" || confi == "y") {
-		FirstRoom(Theroom);
+		std::cout << "Overview: \n";
+		std::cout << "Prisoner: " << subject.word << "\n";
+		std::cout << "Stress levels: " << subject.STRESS << "\n";
+		std::cout << "Prisoner Health: ";
+
+		string healthcal = "calculating... ";
+		int f = 0;
+		while (healthcal [f] != '\0')
+		{
+			cout << healthcal[f];
+			Sleep(200 + rand() % 250);
+			f++;
+		}
+		if (subject.Prisoner1hp = 50) {
+			std::cout << subject.Prisoner1hp << " " << "Status: Fine.\n";
+		}
+		else if (subject.Prisoner1hp < 50) {
+			std::cout << subject.Prisoner1hp << " " << "Status: Dangerous\n";
+		}
+		else if (subject.Prisoner1hp < 20) {
+			std::cout << subject.Prisoner1hp << " " << "Status: Critical\n";
+		}
+		else if (subject.Prisoner1hp > 70) {
+			std::cout << subject.Prisoner1hp << " " << "Status: Nominal\n";
+		}
+		
+		
+		std::cout << "Most recent Occupation: " << charinfo.occupation << "\n";
+		std::cout << "Outlining Characteristics: " << charinfo.chara << "\n";
+
+		int d = 0;
+		string thinking = "Processing odds...\n...\n...\n";
+		while (thinking[d] != '\0')
+		{
+			cout << thinking[d];
+			Sleep(200 + rand() % 250);
+			d++;
+		}
+		std::cout << "ERROR Result Unexpected due to impossible odds.\nReturning to earlier state.\n";
+		std::cout << "Activating secondary prisoner for task.\n";
+		std::cout << "Skipping initial briefing. Initiating Overview:\nName: " << Prisoner_2.word << "\n";
+		std::cout << "Prisoner Health: ";
+		if (Prisoner_2.Prisoner1hp = 50) {
+			std::cout << Prisoner_2.Prisoner1hp << " " << "Status: Fine.\n";
+		}
+		else if (Prisoner_2.Prisoner1hp < 50) {
+			std::cout << Prisoner_2.Prisoner1hp << " " << "Status: Dangerous\n";
+		}
+		else if (Prisoner_2.Prisoner1hp < 20) {
+			std::cout << Prisoner_2.Prisoner1hp << " " << "Status: Critical\n";
+		}
+		else if (Prisoner_2.Prisoner1hp > 70) {
+			std::cout << Prisoner_2.Prisoner1hp << " " << "Status: Nominal\n";
+		}
+		std::cout << "Stress levels: " << Prisoner_2.STRESS << "\n";
+		std::cout << "Most recent Occupation: " << Bio_2.occupation << "\n";
+		std::cout << "Outlining Characteristics: " << Bio_2.chara << "\n";
+
+		FirstRoom(Theroom, subject, charinfo, Prisoner_2, Bio_2);
+
+
 	}
 
 
 
 
+}
+
+
+
+	int FirstRoom(Rooms & Theroom, Prisoners & subject, bio & charinfo,
+		Prisoner2 & Prisoner_2, bio2 & Bio_2) {
+
+		
+
+		if (subject.Speedlvl == "Normal")
+		{
+			int noise = rand() % 40;
+		}
+		if (subject.Speedlvl == "Fast")
+		{
+			int noise = rand() % 60;
+		}
+		if (subject.Speedlvl == "Slow")
+		{
+			int noise = rand() % 10;
+		}
+
+
+		int P = 0;
+		cout << " " << Theroom.Emotions << " " << Theroom.desc << " and " << Theroom.desc2 << " \n";
+		for (P = 0; P < 10; ++P)
+		{
+		string Pchoice;
+		std::getline(std::cin, Pchoice);
+		std::transform(Pchoice.begin(), Pchoice.end(), Pchoice.begin(),
+			[](unsigned char Pchoice) { return std::tolower(Pchoice); });
+
+		// This will be where the big ass IF statement will be:
+		if (Pchoice.find("painting") != string::npos)
+		{
+			std::cout << "cool painting";
+		}
+		if (Pchoice.find("command") != string::npos)
+		{
+
+			// Commands Function: 
+
+			std::cout << "Command console active.\n\n";
+			std::cout << "Connecting to Prisoners... \n";
+			std::cout << "Connection Achieved!\nResults!: \n";
+			
+
+			std::cout << "ID: " << subject.word << "\n";
+			std::cout << "Health: " << subject.Prisoner1hp << "\n";
+			std::cout << "Stress levels: " << subject.STRESS << "\n";
+			std::cout << "Attributes: " << charinfo.chara << "\n";
+			std::cout << "\n\n";
+			std::cout << "ID: " << Prisoner_2.word << "\n";
+			std::cout << "Health: " << Prisoner_2.Prisoner1hp << "\n";
+			std::cout << "Stress levels: " << Prisoner_2.STRESS << "\n";
+			std::cout << "Attributes: " << Bio_2.chara << "\n";
+
+			// Making the user choice
+			string CommIn;
+			// Getting everything they type
+			std::getline(std::cin, CommIn);
+			// Understand the text whether lower or upper caps
+			std::transform(CommIn.begin(), CommIn.end(), CommIn.begin(),
+				[](unsigned char CommIn) { return std::tolower(CommIn); });
+
+
+			//For returning back to main loop
+			if (CommIn.find("return") != string::npos || CommIn.find("exit") != string::npos || CommIn.find("leave") != string::npos)
+			{
+				std::cout << "Returning to Main_Monitor";
+				system("cls");
+				std::cout << "\n Main_Monitor: ";
+				return;
+			}
+			
+			// Setting Speed for prisoner movement
+			if (CommIn.find("Speed") != string::npos)
+			{
+				std::cout << "Current Speed Level: " << subject.Speedlvl << "\n";
+
+			}
+
+
+		}
+		else
+		{
+			std::cout << "Big ol' Nope on that one chief";
+		}
+	}
+	return 0;
 }
 
 
