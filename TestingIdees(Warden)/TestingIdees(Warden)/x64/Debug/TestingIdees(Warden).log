@@ -1,1 +1,27 @@
-﻿  TestingIdees(Warden).vcxproj -> C:\Users\s252531\Documents\Code_things\TestingIdees(Warden)\x64\Debug\TestingIdees(Warden).exe
+﻿  TestingIdees(Warden).cpp
+C:\Users\s252531\Documents\Code_things\TestingIdees(Warden)\TestingIdees(Warden)\TestingIdees(Warden).cpp(48,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\s252531\Documents\Code_things\TestingIdees(Warden)\TestingIdees(Warden)\TestingIdees(Warden).cpp(236,27): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+C:\Users\s252531\Documents\Code_things\TestingIdees(Warden)\TestingIdees(Warden)\TestingIdees(Warden).cpp(292,5): error C2561: 'FirstRoom': function must return a value
+      C:\Users\s252531\Documents\Code_things\TestingIdees(Warden)\TestingIdees(Warden)\TestingIdees(Warden).cpp(214,5):
+      see declaration of 'FirstRoom'
+  
+C:\Users\s252531\Documents\Code_things\TestingIdees(Warden)\TestingIdees(Warden)\TestingIdees(Warden).cpp(309,6): error C2561: 'FirstRoom': function must return a value
+      C:\Users\s252531\Documents\Code_things\TestingIdees(Warden)\TestingIdees(Warden)\TestingIdees(Warden).cpp(214,5):
+      see declaration of 'FirstRoom'
+  
+C:\Users\s252531\Documents\Code_things\TestingIdees(Warden)\TestingIdees(Warden)\TestingIdees(Warden).cpp(316,6): error C2561: 'FirstRoom': function must return a value
+      C:\Users\s252531\Documents\Code_things\TestingIdees(Warden)\TestingIdees(Warden)\TestingIdees(Warden).cpp(214,5):
+      see declaration of 'FirstRoom'
+  
+C:\Users\s252531\Documents\Code_things\TestingIdees(Warden)\TestingIdees(Warden)\TestingIdees(Warden).cpp(324,6): error C2561: 'FirstRoom': function must return a value
+      C:\Users\s252531\Documents\Code_things\TestingIdees(Warden)\TestingIdees(Warden)\TestingIdees(Warden).cpp(214,5):
+      see declaration of 'FirstRoom'
+  
+C:\Users\s252531\Documents\Code_things\TestingIdees(Warden)\TestingIdees(Warden)\TestingIdees(Warden).cpp(335,6): error C2561: 'FirstRoom': function must return a value
+      C:\Users\s252531\Documents\Code_things\TestingIdees(Warden)\TestingIdees(Warden)\TestingIdees(Warden).cpp(214,5):
+      see declaration of 'FirstRoom'
+  
+C:\Users\s252531\Documents\Code_things\TestingIdees(Warden)\TestingIdees(Warden)\TestingIdees(Warden).cpp(341,6): error C2561: 'FirstRoom': function must return a value
+      C:\Users\s252531\Documents\Code_things\TestingIdees(Warden)\TestingIdees(Warden)\TestingIdees(Warden).cpp(214,5):
+      see declaration of 'FirstRoom'
+  

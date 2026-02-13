@@ -31,6 +31,16 @@ public:
 	string Speedlvl = "Normal";
 
 	
+	// Responses
+	string blah[8]{ "Roger that.", "Aye.", "Ok.", "You sure?", "Yes sir", "Affirmative", "Got it", "On it", };
+	string sad[8]{ "Really??", "*UGH* Fine.", "If you say so...", "I dont know about this...", "what??...ok..", "fine but I dont want to....", "Tell my story..." };
+	
+	std::string mehRES = blah[rand() % 8];
+	std::string unsureRES = sad[rand() % 8];
+
+
+	
+
 
 };
 

@@ -87,7 +87,7 @@ void Other2() {
 
 	bio2 bios;
 
-	int selected;
+
 
 	int lsts[8]{ goofy, circusboy, noromeo, sharkwrestle, influencer, germo, sneeze, rockstar };
 

@@ -154,17 +154,17 @@ int main() {
 			Sleep(200 + rand() % 250);
 			f++;
 		}
-		if (subject.Prisoner1hp = 50) {
-			std::cout << subject.Prisoner1hp << " " << "Status: Fine.\n";
+		if (subject.Prisoner1hp == 20) {
+			std::cout << subject.Prisoner1hp << " " << "Status: Critical.\n";
+		}
+		else if (subject.Prisoner1hp < 70) {
+			std::cout << subject.Prisoner1hp << " " << "Status: Nominal.\n";
 		}
 		else if (subject.Prisoner1hp < 50) {
-			std::cout << subject.Prisoner1hp << " " << "Status: Dangerous\n";
+			std::cout << subject.Prisoner1hp << " " << "Status: Dangerous.\n";
 		}
-		else if (subject.Prisoner1hp < 20) {
-			std::cout << subject.Prisoner1hp << " " << "Status: Critical\n";
-		}
-		else if (subject.Prisoner1hp > 70) {
-			std::cout << subject.Prisoner1hp << " " << "Status: Nominal\n";
+		else if (subject.Prisoner1hp == 50) {
+			std::cout << subject.Prisoner1hp << " " << "Status: Fine.\n";
 		}
 		
 		
@@ -211,10 +211,11 @@ int main() {
 
 
 
-	int FirstRoom(Rooms & Theroom, Prisoners & subject, bio & charinfo,
-		Prisoner2 & Prisoner_2, bio2 & Bio_2) {
+int FirstRoom(Rooms& Theroom, Prisoners& subject, bio& charinfo,
+	Prisoner2& Prisoner_2, bio2& Bio_2) {
 
-		
+
+		int noise = 0;
 
 		if (subject.Speedlvl == "Normal")
 		{
@@ -230,14 +231,16 @@ int main() {
 		}
 
 
-		int P = 0;
+		int MissionActive = true;
 		cout << " " << Theroom.Emotions << " " << Theroom.desc << " and " << Theroom.desc2 << " \n";
-		for (P = 0; P < 10; ++P)
+		while (MissionActive == true)
 		{
 		string Pchoice;
 		std::getline(std::cin, Pchoice);
 		std::transform(Pchoice.begin(), Pchoice.end(), Pchoice.begin(),
 			[](unsigned char Pchoice) { return std::tolower(Pchoice); });
+
+
 
 		// This will be where the big ass IF statement will be:
 		if (Pchoice.find("painting") != string::npos)
@@ -264,6 +267,13 @@ int main() {
 			std::cout << "Stress levels: " << Prisoner_2.STRESS << "\n";
 			std::cout << "Attributes: " << Bio_2.chara << "\n";
 
+			// Random Dialouge
+			std::string tm[2]{ subject.word, Prisoner_2.word };
+
+			std::string SharedDialSEL = tm[rand() % 2];
+
+
+
 			// Making the user choice
 			string CommIn;
 			// Getting everything they type
@@ -286,18 +296,59 @@ int main() {
 			if (CommIn.find("Speed") != string::npos)
 			{
 				std::cout << "Current Speed Level: " << subject.Speedlvl << "\n";
+				std::cout << "Options: Slow, Normal, Fast";
+				string slide;
+				std::getline(std::cin, slide);
 
+				if (slide.find("Fast") != string::npos || slide.find("Faster") != string::npos)
+				{
+					subject.Speedlvl = "fast";
+					std::cout << "Updating instructions..." << "Comms:\n " << SharedDialSEL << ": " << subject.unsureRES 
+						<< "\nSpeed updated successfully." << "\n";  //resonse from Prisoners
+					std::cout << "Current noise Estimation: ~60%";
+					return;
+				}
+				if (slide.find("Normal") != string::npos)
+				{
+					subject.Speedlvl = "Normal";
+					std::cout << "Updating instructions..." << "Comms: \n" << SharedDialSEL << subject.mehRES << "\n";
+					std::cout << "Current noise estimation: nominal.\n";
+					return;
+
+				}
+				if (slide.find("Slow") != string::npos || slide.find("slower") != string::npos)
+				{
+					subject.Speedlvl = "Slow";
+					std::cout << "Updating instructions..." << "Comms: \n" << SharedDialSEL << subject.mehRES << "\n";
+					std::cout << "Current noise estimation: Quieter.\n";
+					return;
+				}
 			}
+				else if (CommIn.find("calm") != string::npos)
+				{
+				std::cout << "On who?\n";
+				string picky;
+				std::getline(std::cin, picky);
+				if (picky.find("P1") != string::npos || picky.find(subject.word) != string::npos) {
+					std::cout << "Comms: \n" << subject.word << ": " << subject.mehRES;
+					std::cout << "\nStress levels decrease. Current stress levels: " << subject.STRESS << " " << Prisoner_2.STRESS << "\n";
+					return;
 
-
+				}
+				else if (picky.find("P2") != string::npos || picky.find(Prisoner_2.word) != string::npos) {
+					std::cout << "Comms: \n" << subject.word << ": " << subject.mehRES;
+					std::cout << "\nStress levels decrease. Current stress levels: " << subject.STRESS << " " << Prisoner_2.STRESS << "\n";
+					return;
+				}
+			}
+			
 		}
-		else
-		{
-			std::cout << "Big ol' Nope on that one chief";
-		}
+		
 	}
-	return 0;
+	int xcc = 2;
+	return(xcc);
 }
+					
 
 
 
