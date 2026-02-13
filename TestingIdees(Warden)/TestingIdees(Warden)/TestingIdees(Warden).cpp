@@ -11,28 +11,42 @@
 
 using namespace std;
 
+/*
+if (Pchoice == "")
+		{
+		}
 
+
+*/
 
 int FirstRoom(Rooms& Theroom) {
 	srand(time(0));
 
 	int P = 0;
 	cout << " " << Theroom.Emotions << " " << Theroom.desc << " and " << Theroom.desc2 << " \n";
-	for (P = 0; P < 3; ++P)
+	for (P = 0; P < 10; ++P)
 	{
 		string Pchoice;
-		cin >> Pchoice;
 		std::getline(std::cin, Pchoice);
-		std::cout << Pchoice;
-				
-
-
+		
+		// This will be where the big ass IF statement will be:
+		if (Pchoice == "A weird painting")
+		{
+			std::cout << "cool painting";
+		}
+		else
+		{
+			std::cout << "Big ol' Nope on that one chief";
+		}
 	}
 	return 0;
 }
 
 
+
+
 int main() {
+	
 	//testing typewriter effect
 	//std::string s = "Hello";
 
@@ -43,16 +57,16 @@ int main() {
 	//}
 
 
-
+	//Refrencing the Prisoners header file
 
 	srand(time(0));
 	bio charinfo;
 	Prisoners subject;
 	Rooms Theroom;
-
+	
 
 	// Keeping track of current character statistics -->
-	if (charinfo.his3 == "Involved with clowns")
+	/*if (charinfo.his3 == "Involved with clowns")
 	{
 		std::cout << "You. ARE. a goofy goober.";
 	}
@@ -75,39 +89,13 @@ int main() {
 	else if (charinfo.his3 == "Spreading as many diseases as possible")
 	{
 		std::cout << "Why???";
-	}
+	}*/
 
 
 
 
 
-
-
-	if (charinfo.his2 == "Involved with clowns")
-	{
-		std::cout << "You. ARE. a goofy goober.";
-	}
-	else if (charinfo.his2 == "Influencer")
-	{
-		std::cout << "Thats not a job bro.";
-	}
-	else if (charinfo.his2 == "Shark wrestler")
-	{
-		std::cout << "What?! How!?? Do you at least get insurance!???";
-	}
-	else if (charinfo.his2 == "Hopeless romantic")
-	{
-		std::cout << "Big oof..";
-	}
-	else if (charinfo.his2 == "Being in prison")
-	{
-		std::cout << "With the dementors?....say hi to mike for me";
-	}
-	else if (charinfo.his2 == "Spreading as many diseases as possible")
-	{
-		std::cout << "Why???";
-	}
-
+	//intro sequence
 
 	string hello = "Booting systems...\n...";
 	int x = 0;
@@ -144,6 +132,7 @@ int main() {
 	
 	int c = 0;
 	
+
 	cout << "\n\nMission Briefing received 192.1.233.1 10/09/2xxx\n";
 	cout << "Movement detected 500m~ down. Initiate scanning routine. Extract environmental information. Hades lives.\n";
 	cout << "Do you accept this briefing?\n\n";
@@ -164,6 +153,10 @@ int main() {
 	else if (confi == "Y" || confi == "y") {
 		FirstRoom(Theroom);
 	}
+
+
+
+
 }
 
 

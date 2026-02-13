@@ -15,7 +15,7 @@ public:
 
 	const string names[15]{ "John", "Max", "Noah", "Ashley", "Tom", "Zack",
 		"Arin", "Dan", "Jack", "Sean", "Mark", "Henry", "Iris", "Lucy", "George" };
-	
+
 
 	int playerhp = rand() % 100;
 
@@ -24,18 +24,18 @@ public:
 
 	//choice remembering...
 	int wrongchoice = 0;
-	
+
 };
 
 class Rooms {
 public:
 	string onemore[9]{ "An empty table", "A Toolbox", "A Sword", "An Empty room dust covers the walls", "A Usb with a label",
 	"A Unicorn Wizard's staff", "A Hat. A great Hat.", "A Key", "A Stick" };
-	string others[9]{ "A sense of dread fills the air...", "A Glimmer of hope shoots through you, something about this room...", 
+	string others[9]{ "A sense of dread fills the air...", "A Glimmer of hope shoots through you, something about this room...",
 		"Something smells like it died in here!", "You Feel excited!!", "Crushing guilt has arrived",
 	"Wonder, everywhere you look!", "You can feel your heart beating fast", "This game is PG stop feeling like that!", "Keep it together warden." };
-	string nouns[9] {"A long hallway", "A solid door", "A weird painting", "A strange lamp", "A Locked terminal", 
-	"A strange ladybug", "A window", "A letterbox", "A house"};
+	string nouns[9]{ "A long hallway", "A solid door", "A weird painting", "A strange lamp", "A Locked terminal",
+	"A strange ladybug", "A window", "A letterbox", "A house" };
 	string leveras[9]{ "A long hallway", "A solid door", "A weird painting", "A strange lamp", "A Locked terminal",
 	"A strange ladybug", "A window", "A letterbox", "A house" };
 
@@ -76,5 +76,51 @@ public:
 
 
 
+
 };
 
+void Other() {
+	int goofy = false; int circusboy = false; int noromeo = false; int sharkwrestle = false;  int influencer = false; int germo = false; int sneeze = false; int rockstar = false;
+
+	bio bios;
+
+	int selected;
+
+	int lsts[8]{ goofy, circusboy, noromeo, sharkwrestle, influencer, germo, sneeze, rockstar };
+
+	int index = 0;
+	for (int scroll : lsts)
+	{
+		
+		if (bios.his3 == "Involved with clowns")
+		{
+			goofy = 1;
+			std::cout << lsts << "\n";
+		}
+		else if (bios.his3 == "Hopeless romantic")
+		{
+			noromeo = 1;
+			std::cout << "No romeo tactic added to library//\n";
+		}
+		else if (bios.his3 == "Rockstar")
+		{
+			rockstar = 1;
+			std::cout << "Rockstar tactics added to library//\n";
+		}
+		std::cout << scroll << "\n";
+	}
+
+	//for (string iter : bios.hisi)
+	//{
+	//	std::cout << iter << "\n";
+	//	if (bios.his3 = selected)
+	//	{
+	//		std::cout << bios.his3 << "Is the trait.";
+	//	}
+	//
+	//}
+
+	// OK WELP LEAVING THAT FOR NOW. IT WORKS WELL ENOUGH I GUESS LOL
+	//NOW TO FOCUS ON EXPLORATION!
+	//...and do the assessments at home....
+}
