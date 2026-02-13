@@ -81,4 +81,12 @@ Immersion:
 	Upon starting the game it should take a screenshot of your desktop and start the gameup just showing your desktop so the player is unaware, and then apply a crt filter with the in-universe terminal screen now showing your desktop and a cursor opening the CMD (fake) and typing in "Begin_Warden_OPS_1211" the terminmal responds with some starting up code, and then the OS booting screen appears and boom youre in game, all missions you recieve should be from your boss and everything should bleed immersion stitching everything together.
 
 Tools:
+
 	Tools can be brought to missions that bring unique abilities such as the biotracker being the one 	that is best for beginners, because if you dont bring the biotracker and instead bring the reinforce door which is a code that locks dowmn a door so hard it cant be broken through and can only be activated throgugh some time based code in the terminal and makes every room behind it inaccessable from then on, and bc of no biotracker it means depending on cameras for view points and seeing monsters which makes things more difficult
+
+
+-- 
+The text counterpart aka prototype is in the v0.05 right now, 
+How would I implement more of the main mechanics into a text only format? 
+Considering time is such a vital component...timers would need to be figured out ASAP. 
+Refer to Testingithink(WARDEN) for source code for the project so far!
