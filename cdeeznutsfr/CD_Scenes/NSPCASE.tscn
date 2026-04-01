@@ -1,0 +1,37 @@
+[gd_scene format=3 uid="uid://cti3b7e4ind3w"]
+
+[ext_resource type="PackedScene" uid="uid://bw6xojql0v7f3" path="res://cd-jewel-case/source/CD with Jewel Case.blend" id="1_an6si"]
+[ext_resource type="Texture2D" uid="uid://d218ua4m4qu7d" path="res://CD_COVERS/Masterstrokes.png" id="2_jwy11"]
+[ext_resource type="Texture2D" uid="uid://blcaf7t1tbelv" path="res://CD_COVERS/TrackList_MasterStrokes.png" id="3_jwy11"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_j2yg2"]
+transparency = 1
+cull_mode = 2
+albedo_color = Color(1.9754877, 1.9754877, 1.9754877, 1)
+albedo_texture = ExtResource("2_jwy11")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tbtbb"]
+albedo_texture = ExtResource("2_jwy11")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_qfpdq"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fy18o"]
+transparency = 1
+albedo_color = Color(1.1759251, 1.1759251, 1.1759251, 0.54509807)
+albedo_texture = ExtResource("3_jwy11")
+
+[node name="CD with Jewel Case" unique_id=380980641 instance=ExtResource("1_an6si")]
+
+[node name="Case Back" parent="." index="0" unique_id=2047900417]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8918188, 1.2556021, -0.42067927)
+
+[node name="Case Front" parent="Case Back" index="0" unique_id=1867539380]
+surface_material_override/1 = SubResource("StandardMaterial3D_j2yg2")
+
+[node name="CD" parent="Case Back" index="1" unique_id=2012541912]
+surface_material_override/0 = SubResource("StandardMaterial3D_tbtbb")
+
+[node name="Back_Tracks" type="MeshInstance3D" parent="Case Back" index="2" unique_id=275822474]
+transform = Transform3D(0.018551791, -0.9998279, 0, -0.003716937, -6.896771e-05, -0.9999931, 0.999821, 0.018551663, -0.0037175769, -0.044396162, -0.013313532, -0.094358444)
+mesh = SubResource("PlaneMesh_qfpdq")
+surface_material_override/0 = SubResource("StandardMaterial3D_fy18o")

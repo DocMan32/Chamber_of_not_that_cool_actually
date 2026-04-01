@@ -1,0 +1,123 @@
+[gd_scene format=3 uid="uid://cjerxeq6sq06o"]
+
+[ext_resource type="PackedScene" uid="uid://cti3b7e4ind3w" path="res://CD_Scenes/NSPCASE.tscn" id="1_glv2v"]
+[ext_resource type="Script" uid="uid://b35ecmvl8nyqh" path="res://main.gd" id="1_r0du0"]
+[ext_resource type="Texture2D" uid="uid://d218ua4m4qu7d" path="res://CD_COVERS/Masterstrokes.png" id="4_3dxm6"]
+[ext_resource type="Script" uid="uid://d0q0fxxmtfnbp" path="res://MovingFront.gd" id="4_cm0pq"]
+[ext_resource type="Script" uid="uid://k7ph2fkdh8ch" path="res://ButtonMesh.gd" id="5_fos0i"]
+[ext_resource type="Script" uid="uid://c5eolt35ol675" path="res://shelf/source/model/selectCD.gd" id="7_03owx"]
+[ext_resource type="PackedScene" uid="uid://baefnecbalr66" path="res://shelf/source/model/model.dae" id="7_trn2v"]
+[ext_resource type="PackedScene" uid="uid://ck40ej7co80m1" path="res://CD_Scenes/AmericanSummerCD.tscn" id="8_03owx"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lgr22"]
+transparency = 1
+cull_mode = 1
+albedo_texture = ExtResource("4_3dxm6")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_glv2v"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_fos0i"]
+size = Vector3(1.9023438, 0.06048584, 1.939331)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_trn2v"]
+size = Vector3(0.13570404, 1.9933777, 1.4609375)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_wkp8b"]
+size = Vector3(2.7664223, 0.13354492, 0.76831055)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_03owx"]
+size = Vector3(0.16775513, 1.9872131, 1)
+
+[node name="Node3D" type="Node3D" unique_id=1861346981]
+script = ExtResource("1_r0du0")
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=1401269546]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.7636007, 0.11127344, 0.8430741)
+
+[node name="RayCast3D" type="RayCast3D" parent="Camera3D" unique_id=1795319312]
+target_position = Vector3(0, 0, -10)
+
+[node name="NSP_CASE" parent="." unique_id=380980641 instance=ExtResource("1_glv2v")]
+transform = Transform3D(0.9999994, 0, 0.0010820851, 0, 1, 0, -0.0010820851, 0, 0.9999994, -3.0826268, -0.17409474, -2.600658)
+
+[node name="Case Back" parent="NSP_CASE" index="0" unique_id=120886579]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.21170849, 1.2556021, -0.4224974)
+
+[node name="Case Front" parent="NSP_CASE/Case Back" index="0" unique_id=65283501]
+transform = Transform3D(-0.0062919147, 0.9986263, -0.05202203, -0.9999801, -0.0063004517, -1.044925e-07, -0.00032786684, 0.05202102, 0.99864584, -0.00063085556, 0, 1.1053243)
+surface_material_override/1 = SubResource("StandardMaterial3D_lgr22")
+script = ExtResource("4_cm0pq")
+
+[node name="CD" parent="NSP_CASE/Case Back" index="1" unique_id=893010742]
+transform = Transform3D(-1.3877788e-17, 1.0221932, 5.8906153e-08, 1.022193, 5.826435e-15, -7.717344e-08, -7.7173475e-08, 5.9604645e-08, -1.022193, -0.0037277937, 0.0059894323, -0.108201146)
+surface_material_override/0 = null
+
+[node name="MeshButtonNSP" type="Node3D" parent="NSP_CASE" unique_id=1331265192]
+transform = Transform3D(-0.0010821063, 0, 0.9999994, 0, 1, 0, -0.9999994, 0, -0.0010821063, 1.4487152, 1.0981482, -2.0958946)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="NSP_CASE/MeshButtonNSP" unique_id=229795295 groups=["Button"]]
+transform = Transform3D(0.051286962, 0, 0, 0, -0.0127547085, -0.1426937, 0, 0.49101284, -0.0037066557, -0.6794604, -0.049854416, -1.490023)
+mesh = SubResource("PlaneMesh_glv2v")
+script = ExtResource("5_fos0i")
+
+[node name="Area3D" type="Area3D" parent="NSP_CASE/MeshButtonNSP/MeshInstance3D" unique_id=1338370427]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="NSP_CASE/MeshButtonNSP/MeshInstance3D/Area3D" unique_id=1875157299]
+transform = Transform3D(1, 0, 0, 0, 1, -4.656613e-10, 0, -3.7103891e-06, 0.9999999, -0.07031155, 0.0028102398, 0.009036183)
+shape = SubResource("BoxShape3D_fos0i")
+
+[node name="NSPHOVER" type="Area3D" parent="NSP_CASE" unique_id=77487120]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="NSP_CASE/NSPHOVER" unique_id=700858304]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.21412683, 1.2613404, -0.034241915)
+shape = SubResource("BoxShape3D_trn2v")
+
+[node name="Shelf" parent="." unique_id=873580323 instance=ExtResource("7_trn2v")]
+transform = Transform3D(-0.9973336, 0, 0.07297713, 0, 1, 0, -0.07297713, 0, -0.9973336, -2.015785, -1.1920929e-07, -2.3502874)
+script = ExtResource("7_03owx")
+
+[node name="Area3D" type="Area3D" parent="Shelf" unique_id=803348811]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Shelf/Area3D" unique_id=1933841307]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0154623985, 0.008666992, 0.006713867)
+shape = SubResource("BoxShape3D_wkp8b")
+
+[node name="AmericanSummer" parent="." unique_id=727699497 instance=ExtResource("8_03owx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.9396954, 0.025159717, -3.684069)
+
+[node name="Case Front" parent="AmericanSummer/Case Back" parent_id_path=PackedInt32Array(727699497, 120886579) index="0" unique_id=65283501]
+transform = Transform3D(2.9329496e-07, 0.99773604, -0.06725216, -1, 2.9802322e-07, -1.7881392e-07, -2.0679443e-07, 0.06725219, 0.997736, -0.00063085556, 0, 1.1053247)
+
+[node name="CD" parent="AmericanSummer/Case Back" parent_id_path=PackedInt32Array(727699497, 120886579) index="1" unique_id=893010742]
+transform = Transform3D(0, 1.0221932, 7.717344e-08, 1.022193, 5.826435e-15, -7.717344e-08, -7.717344e-08, 7.717345e-08, -1.022193, -0.026877165, 0.0059894323, -0.09427643)
+
+[node name="ASHOVER" type="Area3D" parent="AmericanSummer" unique_id=239280719]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="AmericanSummer/ASHOVER" unique_id=622595695]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.105026245, 1.0526886, 1.2800217)
+shape = SubResource("BoxShape3D_03owx")
+debug_color = Color(0.86688143, 0.08837717, 0.8286835, 0.41960785)
+
+[node name="NSPInfo" type="Label3D" parent="." unique_id=1593202783]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8187623, -0.7819312, -1.1017427)
+visible = false
+text = "The Masterstrokes
+Ten Years of Ninja Sex Party
+- 
+Ninja Sex Party"
+
+[node name="ASINFO" type="Label3D" parent="." unique_id=1861383595]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8247094, -0.5563561, -1.0558707)
+visible = false
+text = "American Summer 
+- Value Select"
+
+[connection signal="mouse_entered" from="NSP_CASE/NSPHOVER" to="." method="_on_nsphover_mouse_entered"]
+[connection signal="mouse_exited" from="NSP_CASE/NSPHOVER" to="." method="_on_nsphover_mouse_exited"]
+[connection signal="mouse_entered" from="AmericanSummer/ASHOVER" to="." method="_on_ashover_mouse_entered"]
+[connection signal="mouse_exited" from="AmericanSummer/ASHOVER" to="." method="_on_ashover_mouse_exited"]
+
+[editable path="NSP_CASE"]
+[editable path="Shelf"]
+[editable path="AmericanSummer"]
