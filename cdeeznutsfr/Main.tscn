@@ -9,8 +9,11 @@
 [ext_resource type="Texture2D" uid="uid://bwxxducrxhoso" path="res://cd-jewel-case/source/textures/24.png" id="9_c2ibq"]
 [ext_resource type="Texture2D" uid="uid://5kkcc68ibkqa" path="res://CD_COVERS/AmericanSummerFront.png" id="10_j4qnp"]
 [ext_resource type="Texture2D" uid="uid://twdj0ph4v460" path="res://cd-jewel-case/source/textures/2cd43b_0242e604c61d4732ac33ede263ee117f_mv2.png" id="11_fpfj3"]
+[ext_resource type="Texture2D" uid="uid://b1sse672s4so5" path="res://AshDance1.png" id="12_c2ibq"]
 [ext_resource type="Texture2D" uid="uid://d0e35qh5dv05x" path="res://CD_COVERS/BackTracksAS.png" id="12_sc1dx"]
+[ext_resource type="Texture2D" uid="uid://dpmyp7c6bg861" path="res://AshDance2.png" id="13_j4qnp"]
 [ext_resource type="Texture2D" uid="uid://dccqvrehpdbff" path="res://CD_COVERS/SpineAS (2).png" id="13_kjvhd"]
+[ext_resource type="Script" uid="uid://cspo26jrvcrvf" path="res://DancingTime.gd" id="14_fpfj3"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_j8epf"]
 resource_name = "Rough Plastic"
@@ -727,6 +730,25 @@ albedo_texture = ExtResource("13_kjvhd")
 [sub_resource type="BoxShape3D" id="BoxShape3D_03owx"]
 size = Vector3(0.16775513, 1.9872131, 1)
 
+[sub_resource type="SpriteFrames" id="SpriteFrames_sc1dx"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_c2ibq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_j4qnp")
+}],
+"loop": true,
+"name": &"Dancing",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
 [node name="Node3D" type="Node3D" unique_id=1861346981]
 script = ExtResource("1_r0du0")
 
@@ -847,6 +869,14 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8247094, -0.5563561, -1.05
 visible = false
 text = "American Summer 
 - Value Select"
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1204837573]
+position = Vector2(205, 428)
+scale = Vector2(0.48548388, 0.8997295)
+sprite_frames = SubResource("SpriteFrames_sc1dx")
+animation = &"Dancing"
+frame_progress = 0.709593
+script = ExtResource("14_fpfj3")
 
 [connection signal="mouse_entered" from="NSP_CASE/NSPHOVER" to="." method="_on_nsphover_mouse_entered"]
 [connection signal="mouse_exited" from="NSP_CASE/NSPHOVER" to="." method="_on_nsphover_mouse_exited"]

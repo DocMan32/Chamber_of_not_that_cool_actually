@@ -22,7 +22,7 @@ DebugShortcuts="*uid://obnoil2lvfc4"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/music_metadata/plugin.cfg")
+enabled=PackedStringArray("res://addons/music_metadata/plugin.cfg", "res://addons/project-time-tracker/plugin.cfg")
 
 [global_group]
 

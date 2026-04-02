@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://lcyx15dlhdwp"
+path="res://.godot/imported/Memento Mori_ the most important thing in the world.mp3-24281e8bffcaf0410fe8f55586f7aec0.mp3str"
+
+[deps]
+
+source_file="res://MUSIC/Will Wood/The Normal Album/Memento Mori_ the most important thing in the world.mp3"
+dest_files=["res://.godot/imported/Memento Mori_ the most important thing in the world.mp3-24281e8bffcaf0410fe8f55586f7aec0.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
