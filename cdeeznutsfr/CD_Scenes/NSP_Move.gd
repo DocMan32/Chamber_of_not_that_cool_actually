@@ -1,6 +1,6 @@
 extends MeshInstance3D
 
-
+#declaring Variables
 
 var mouse_down = false;
 var sensitivity = 0.008;
