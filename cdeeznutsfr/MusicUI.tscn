@@ -1,0 +1,78 @@
+[gd_scene format=3 uid="uid://76gwvh8axcb3"]
+
+[ext_resource type="Script" uid="uid://b6x1ox8sl17ye" path="res://MusicUI.gd" id="1_6nfjr"]
+[ext_resource type="AudioStream" uid="uid://be2c52j4dknhq" path="res://MUSIC/Heart Boner.mp3" id="2_p343i"]
+[ext_resource type="Script" uid="uid://bn6abn5i32wj2" path="res://Music_Player.gd" id="3_yrpaf"]
+[ext_resource type="Theme" uid="uid://d3xpj2jcaq3xd" path="res://shelf/godot-theme-browser-main-project-themes-purpixeled/project/themes/purpixeled/theme.tres" id="4_p343i"]
+
+[node name="Control" type="Panel" unique_id=1642730432]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_6nfjr")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1579414818]
+stream = ExtResource("2_p343i")
+autoplay = true
+script = ExtResource("3_yrpaf")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1785848368]
+layout_mode = 0
+offset_left = 1.0
+offset_top = 124.0
+offset_right = 70.0
+offset_bottom = 167.0
+scale = Vector2(3.333608, 2.5131807)
+
+[node name="HSlider" type="HSlider" parent="VBoxContainer" unique_id=2147012470]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VBoxContainer" unique_id=1024243425]
+layout_mode = 2
+text = "Current: "
+
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=411078264]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="PlayButton" type="Button" parent="HBoxContainer" unique_id=1034951078]
+layout_mode = 2
+text = "Play/Pause"
+
+[node name="ItemList" type="ItemList" parent="." unique_id=127207525]
+layout_mode = 0
+offset_left = 242.0
+offset_right = 507.0
+offset_bottom = 646.0
+auto_width = true
+auto_height = true
+max_columns = 3
+
+[node name="Window" type="Window" parent="." unique_id=1679004038]
+oversampling_override = 1.0
+initial_position = 1
+visible = false
+theme = ExtResource("4_p343i")
+
+[node name="FileDialog" type="FileDialog" parent="Window" unique_id=1468439433]
+oversampling_override = 1.0
+title = "Open a Directory"
+position = Vector2i(0, 36)
+visible = true
+dialog_hide_on_ok = true
+file_mode = 2
+access = 2
+
+[node name="Button" type="Button" parent="." unique_id=1958511535]
+layout_mode = 0
+offset_left = 787.0
+offset_top = 220.0
+offset_right = 1037.0
+offset_bottom = 280.0
+text = "CLICK ME ALREADY"
+
+[connection signal="dir_selected" from="Window/FileDialog" to="." method="_on_file_dialog_dir_selected"]
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

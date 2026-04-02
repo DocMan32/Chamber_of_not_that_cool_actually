@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://cts2101cvwx8w"]
+
+[ext_resource type="Texture2D" uid="uid://xaa2n66xdj7i" path="res://CD_COVERS/Arrow.png" id="1_ppbd5"]
+
+[node name="Control" type="Control" unique_id=1110899377]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureButton" type="TextureButton" parent="." unique_id=1870399157]
+layout_mode = 0
+offset_top = 280.0
+offset_right = 100.0
+offset_bottom = 380.0
+texture_normal = ExtResource("1_ppbd5")
+flip_h = true
+
+[node name="TextureButton2" type="TextureButton" parent="." unique_id=381423885]
+layout_mode = 0
+offset_left = 1056.0
+offset_top = 280.0
+offset_right = 1156.0
+offset_bottom = 380.0
+texture_normal = ExtResource("1_ppbd5")

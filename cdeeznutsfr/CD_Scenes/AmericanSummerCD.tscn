@@ -4,7 +4,9 @@
 [ext_resource type="Script" uid="uid://cuq4h2xho8rei" path="res://CD_Scenes/AS_MouseMove.gd" id="2_5chbt"]
 [ext_resource type="Texture2D" uid="uid://5kkcc68ibkqa" path="res://CD_COVERS/AmericanSummerFront.png" id="2_w55f1"]
 [ext_resource type="Texture2D" uid="uid://d0e35qh5dv05x" path="res://CD_COVERS/BackTracksAS.png" id="3_5chbt"]
+[ext_resource type="Script" uid="uid://dkvc0ejvj22w0" path="res://CD_Scenes/OpenCase_AS.gd" id="4_5chbt"]
 [ext_resource type="Texture2D" uid="uid://dccqvrehpdbff" path="res://CD_COVERS/SpineAS (2).png" id="4_37bn2"]
+[ext_resource type="PackedScene" uid="uid://cts2101cvwx8w" path="res://BUTTONS.tscn" id="7_37bn2"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_j8epf"]
 resource_name = "Rough Plastic"
@@ -163,7 +165,7 @@ shadow_mesh = SubResource("ArrayMesh_36w2r")
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_e6xxb"]
 transparency = 1
 cull_mode = 1
-albedo_color = Color(1.224127, 1.224127, 1.224127, 1)
+albedo_color = Color(2.1382592, 2.1382592, 2.1382592, 1)
 albedo_texture = ExtResource("2_w55f1")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cnp4p"]
@@ -181,16 +183,23 @@ albedo_texture = ExtResource("3_5chbt")
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cebpj"]
 albedo_texture = ExtResource("4_37bn2")
 
+[sub_resource type="BoxMesh" id="BoxMesh_w55f1"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_w55f1"]
+
 [node name="CD with Jewel Case" unique_id=727699497 instance=ExtResource("1_jhswx")]
-script = ExtResource("2_5chbt")
 
 [node name="Case Back" parent="." index="0" unique_id=120886579]
 mesh = SubResource("ArrayMesh_tkrhx")
+script = ExtResource("2_5chbt")
 
 [node name="Case Front" parent="Case Back" index="0" unique_id=65283501]
+transform = Transform3D(2.8442383e-07, 0.99967176, -0.025621727, -1, 2.9802325e-07, -1.7881392e-07, -2.1883537e-07, 0.025621727, 0.99967164, -0.00063085556, 0, 1.1053247)
 surface_material_override/1 = SubResource("StandardMaterial3D_e6xxb")
+script = ExtResource("4_5chbt")
 
 [node name="CD" parent="Case Back" index="1" unique_id=893010742]
+transform = Transform3D(0, 1.0221932, 7.717344e-08, 1.022193, 5.826435e-15, -7.717344e-08, -7.717344e-08, 7.717345e-08, -1.022193, -0.027311862, 0.02303052, -0.126688)
 surface_material_override/0 = SubResource("StandardMaterial3D_cnp4p")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Case Back" index="2" unique_id=391360851]
@@ -203,4 +212,25 @@ transform = Transform3D(0.07788153, 0, 0, 0, -0.005989722, -0.98645747, 0, 0.616
 mesh = SubResource("PlaneMesh_sqco6")
 surface_material_override/0 = SubResource("StandardMaterial3D_cebpj")
 
+[node name="SnapLock" type="MeshInstance3D" parent="Case Back" index="4" unique_id=542179808]
+transform = Transform3D(0.1683663, 0, 0, 0, 0.07188306, 0, 0, 0, 0.11464945, 0.0059000254, 0, -1.1191548)
+mesh = SubResource("BoxMesh_w55f1")
+
+[node name="snaplockarea" type="Area3D" parent="Case Back/SnapLock" index="0" unique_id=990108019]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Case Back/SnapLock/snaplockarea" index="0" unique_id=1192405481]
+shape = SubResource("BoxShape3D_w55f1")
+
 [node name="Camera3D" type="Camera3D" parent="." index="1" unique_id=202144523]
+transform = Transform3D(0.020052442, 0, 0.99979895, 0, 1, 0, -0.99979895, 0, 0.020052442, 1.5104623, 1.051425, 0.83971584)
+
+[node name="Control" parent="." index="2" unique_id=1110899377 instance=ExtResource("7_37bn2")]
+offset_left = -2.0
+offset_top = -29.0
+offset_right = -2.0
+offset_bottom = -29.0
+
+[connection signal="pressed" from="Control/TextureButton" to="Case Back" method="_on_texture_button_pressed"]
+[connection signal="pressed" from="Control/TextureButton2" to="Case Back" method="_on_texture_button_2_pressed"]
+
+[editable path="Control"]

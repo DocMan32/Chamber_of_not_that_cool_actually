@@ -11,6 +11,7 @@ extends Node3D
 func _ready() -> void:
 	$NSP_CASE/NSPHOVER.input_event.connect(_on_input_event)
 	$AmericanSummer/ASHOVER.input_event.connect(_on_input_event_AS)
+	
 	pass # Replace with function body.
 
 func _on_input_event(camera, event, position, normal, shape_idx):
@@ -24,6 +25,7 @@ func _on_input_event_AS(camera, event, position, normal, shape_idx):
 	pass
 
 
+
 func _on_button_pressed_AS():
 	#for when the button is pressed:
 
@@ -31,11 +33,15 @@ func _on_button_pressed_AS():
 			get_tree().change_scene_to_file("res://CD_Scenes/AmericanSummerCD.tscn")
 	
 
+
+
+
+
 func _on_button_pressed():
 	#for when the button is pressed:
-
-			print("BUTTONS WORK CAPTAIN")
-			
+	get_tree().change_scene_to_file("res://CD_Scenes/NSPCASE.tscn")
+	print("BUTTONS WORK CAPTAIN")
+	
 	
 
 

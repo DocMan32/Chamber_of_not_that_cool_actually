@@ -1,8 +1,11 @@
 [gd_scene format=3 uid="uid://cti3b7e4ind3w"]
 
 [ext_resource type="PackedScene" uid="uid://bw6xojql0v7f3" path="res://cd-jewel-case/source/CD with Jewel Case.blend" id="1_an6si"]
+[ext_resource type="Script" uid="uid://bm6toekfeb84m" path="res://CD_Scenes/NSP_Move.gd" id="2_2srlb"]
 [ext_resource type="Texture2D" uid="uid://d218ua4m4qu7d" path="res://CD_COVERS/Masterstrokes.png" id="2_jwy11"]
 [ext_resource type="Texture2D" uid="uid://blcaf7t1tbelv" path="res://CD_COVERS/TrackList_MasterStrokes.png" id="3_jwy11"]
+[ext_resource type="Texture2D" uid="uid://xaa2n66xdj7i" path="res://CD_COVERS/Arrow.png" id="5_d27ma"]
+[ext_resource type="PackedScene" uid="uid://76gwvh8axcb3" path="res://MusicUI.tscn" id="6_d27ma"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_j2yg2"]
 transparency = 1
@@ -17,21 +20,82 @@ albedo_texture = ExtResource("2_jwy11")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fy18o"]
 transparency = 1
-albedo_color = Color(1.1759251, 1.1759251, 1.1759251, 0.54509807)
+albedo_color = Color(2.4061394, 2.4061394, 2.4061394, 0.54509807)
 albedo_texture = ExtResource("3_jwy11")
 
-[node name="CD with Jewel Case" unique_id=380980641 instance=ExtResource("1_an6si")]
+[sub_resource type="BoxMesh" id="BoxMesh_nxlph"]
 
-[node name="Case Back" parent="." index="0" unique_id=2047900417]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8918188, 1.2556021, -0.42067927)
+[sub_resource type="BoxShape3D" id="BoxShape3D_d27ma"]
 
-[node name="Case Front" parent="Case Back" index="0" unique_id=1867539380]
+[node name="NSP_Masterstrokes" unique_id=380980641 instance=ExtResource("1_an6si")]
+
+[node name="Case Back" parent="." index="0" unique_id=120886579]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.7069376, 1.2556021, -0.5475196)
+script = ExtResource("2_2srlb")
+
+[node name="Case Front" parent="Case Back" index="0" unique_id=65283501]
+transform = Transform3D(-4.3694868e-08, 0.9996222, -0.02748549, -1, -4.371139e-08, 0, -1.2014318e-09, 0.02748552, 0.9996221, 0.020095706, 0, 1.1053247)
 surface_material_override/1 = SubResource("StandardMaterial3D_j2yg2")
 
-[node name="CD" parent="Case Back" index="1" unique_id=2012541912]
+[node name="CD" parent="Case Back" index="1" unique_id=893010742]
+transform = Transform3D(0, 1.0221932, 7.717344e-08, 1.022193, 5.826435e-15, -7.717344e-08, -7.717344e-08, 7.717345e-08, -1.022193, -0.004245639, 0.0059894323, -0.13600272)
 surface_material_override/0 = SubResource("StandardMaterial3D_tbtbb")
 
 [node name="Back_Tracks" type="MeshInstance3D" parent="Case Back" index="2" unique_id=275822474]
 transform = Transform3D(0.018551791, -0.9998279, 0, -0.003716937, -6.896771e-05, -0.9999931, 0.999821, 0.018551663, -0.0037175769, -0.044396162, -0.013313532, -0.094358444)
 mesh = SubResource("PlaneMesh_qfpdq")
 surface_material_override/0 = SubResource("StandardMaterial3D_fy18o")
+
+[node name="SnapLock" type="MeshInstance3D" parent="Case Back" index="3" unique_id=952650786]
+transform = Transform3D(0.24717945, 0, 0, 0, 0.097950995, 0, 0, 0, 0.029486904, 0.0466789, 0, -1.097558)
+mesh = SubResource("BoxMesh_nxlph")
+
+[node name="snaplockarea" type="Area3D" parent="Case Back/SnapLock" index="0" unique_id=1145814287]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Case Back/SnapLock/snaplockarea" index="0" unique_id=226822883]
+shape = SubResource("BoxShape3D_d27ma")
+
+[node name="Control" parent="Case Back" index="4" unique_id=1642730432 instance=ExtResource("6_d27ma")]
+offset_left = 4.0
+offset_top = 9.0
+offset_right = 4.0
+offset_bottom = 9.0
+
+[node name="AudioStreamPlayer" parent="Case Back/Control" index="0" unique_id=1579414818]
+autoplay = false
+
+[node name="Camera3D" type="Camera3D" parent="." index="1" unique_id=1856246392]
+transform = Transform3D(0.037184425, 0, 0.9993084, 0, 1, 0, -0.99930847, 0, 0.037184425, 0, 1.2990017, -0.5403168)
+
+[node name="Buttons" type="Control" parent="." index="2" unique_id=1110899377]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 1.0
+offset_top = 12.0
+offset_right = 1.0
+offset_bottom = 12.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureButton" type="TextureButton" parent="Buttons" index="0" unique_id=1870399157]
+layout_mode = 0
+offset_top = 280.0
+offset_right = 100.0
+offset_bottom = 380.0
+texture_normal = ExtResource("5_d27ma")
+flip_h = true
+
+[node name="TextureButton2" type="TextureButton" parent="Buttons" index="1" unique_id=381423885]
+layout_mode = 0
+offset_left = 1056.0
+offset_top = 280.0
+offset_right = 1156.0
+offset_bottom = 380.0
+texture_normal = ExtResource("5_d27ma")
+
+[connection signal="pressed" from="Buttons/TextureButton" to="Case Back" method="_on_texture_button_pressed"]
+[connection signal="pressed" from="Buttons/TextureButton2" to="Case Back" method="_on_texture_button_2_pressed"]
+
+[editable path="Case Back/Control"]

@@ -2,9 +2,20 @@ extends Node3D
 
 
 # Called when the node enters the scene tree for the first time.
-func _ready() -> void:
+
+var mouse_down = false;
+var sensitivity = 0.005;
+
+func _input(event):
+	if event.is_action_pressed("click"):
+		mouse_down = true;
+	if event.is_action_released("click"):
+		mouse_down = false;
+		
+	if mouse_down and event is InputEventMouseMotion:
+		
+		rotate_object_local(Vector3.UP, event.relative.y * sensitivity);
 	
-	pass # Replace with function body.
 
 
 	pass
