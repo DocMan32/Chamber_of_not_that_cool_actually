@@ -79,6 +79,7 @@ func _on_file_dialog_dir_selected(path: String) -> void:
 				for subdir in subdirs:
 					var subdir_path = path.path_join(subdir)
 					_on_file_dialog_dir_selected(subdir_path)
+					create_mesh_for_file(path + file_name)
 					break
 				$"/root/GlobalMusic".music_files.append(file_name + "!")
 			
@@ -92,6 +93,12 @@ func _on_file_dialog_dir_selected(path: String) -> void:
 		print("AN ERROR HAPPENED COMPUTER HAVE BOOBOO")
 	pass # Replace with function body.
 
+func create_mesh_for_file(file_path):
+	#var st = SurfaceTool.new()
+	#st.begin(mesh.PRIMITIVE_TRIANLGES)
+	pass
+
+
 func scan_recursive(path: String):
 	var files = DirAccess.get_files_at(path)
 	for file in files:
@@ -99,6 +106,7 @@ func scan_recursive(path: String):
 		
 	
 
+		
 
 func UpdateStuff():
 	print($"/root/GlobalMusic".music_files)

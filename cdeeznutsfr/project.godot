@@ -18,8 +18,11 @@ config/icon="res://icon.svg"
 [autoload]
 
 GlobalMusic="*uid://d37tmlnehc5or"
-MusicMeta="*uid://cwccwowya20xl"
 DebugShortcuts="*uid://obnoil2lvfc4"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/music_metadata/plugin.cfg")
 
 [global_group]
 

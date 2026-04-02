@@ -61,18 +61,8 @@ theme = ExtResource("4_p343i")
 oversampling_override = 1.0
 title = "Open a Directory"
 position = Vector2i(0, 36)
-visible = true
 dialog_hide_on_ok = true
 file_mode = 2
 access = 2
 
-[node name="Button" type="Button" parent="." unique_id=1958511535]
-layout_mode = 0
-offset_left = 787.0
-offset_top = 220.0
-offset_right = 1037.0
-offset_bottom = 280.0
-text = "CLICK ME ALREADY"
-
 [connection signal="dir_selected" from="Window/FileDialog" to="." method="_on_file_dialog_dir_selected"]
-[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
