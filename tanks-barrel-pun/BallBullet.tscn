@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://bcsbvljga6jtl"]
+
+[ext_resource type="Script" uid="uid://b6f77lj5boha7" path="res://ball_bullet.gd" id="1_ifa3t"]
+[ext_resource type="Texture2D" uid="uid://g1ki5xg7usdg" path="res://bfqdeiqh.png" id="1_ts8yu"]
+[ext_resource type="Script" uid="uid://ukyg1js6421t" path="res://BulletScript.gd" id="2_bbor2"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_opqv4"]
+size = Vector3(0.51797485, 0.3710785, 0.20214844)
+
+[node name="Node3D" type="Node3D" unique_id=1488184141]
+script = ExtResource("1_ifa3t")
+
+[node name="RigidBody3D" type="RigidBody3D" parent="." unique_id=1340311260]
+script = ExtResource("2_bbor2")
+
+[node name="Sprite3D" type="Sprite3D" parent="RigidBody3D" unique_id=2084132640]
+transform = Transform3D(0.09583714, 0, 0, 0, 0.07078539, 0, 0, 0, 1, 0, 0, 0)
+texture = ExtResource("1_ts8yu")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D" unique_id=634411998]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00039788336, 0.018702954, -0.03429717)
+shape = SubResource("BoxShape3D_opqv4")
+
+[node name="Timer" type="Timer" parent="RigidBody3D" unique_id=1799037635]
