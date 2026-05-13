@@ -1,0 +1,148 @@
+Untitled
+                                                                Pie. 
+                         
+                         
+                         
+                        
+You walk down the street signs for cheap ramen restaraunts are sprinkled through the streets, [[several missing posters]] that show the faces of mysteries.
+You fix your [[Tie]] in nervousness, you can feel your forehead dripping with sweat, your lucky pen shifting around in your breast pocket. The weight of your notebook in your bag.
+Your dark black tie, its got navy blue stains around the top and always looks somewhat desheveled. 
+You still rememeber the first day you got this tie, you had just bought your first apartment in Sakanua the rent was good and the location was snobby so you decided to buy a tie as a joke but liked how it looked.
+The posters show the people you've been tracking down clues about for some time now, the oldest one has moss covering the corners of the poster, and there appears to be [[something on the oldest posters]] down the end of the wall? [[Ignore them, remain focused.]]
+Upon closer inspection you notice that the faces of the oldest posters have black voids where their face used to be completely removing all features of their faces. 
+you feel very unsettled...and decide to step away.
+
+[[several missing posters]]
+(text-rotate-x:8)+(text-rotate-y:45)["Hello?"]
+you hear someone ask from behind.
+[[turn around]] 
+[[Must've been my imagination]]
+Yout turn around and find a woman standing inches from your face, a caveat where her face should be what are you even looking at? (if:(history: where its name contains "something on the oldest posters")'s length >= 1)[Just like the posters you saw earlirer!!]
+This was the last thought you have before your entire body is filled with terror. 
+[[is there something in there?]] 
+[[''attempt'' to blink.]] 
+You trudge forth ignoring every single instinct to turn around. you feel that you made a horrible mistake even the wind feels like its mocking you.
+
+You dont hear the voice again.
+
+[[You reach THE ramen store]]
+Oh yes. yes you see it now, theyre black hair falls in front of the void slightly obscuring it from your view, but you see "it" right? its so close! its right [[there!]] 
+You try your hardest to blink but it feels like your entire body is activley fighting against you, you want to see, you NEED to see.
+
+The more your eyes gaze into the infinite the more you feel the surrounding area change and warp, you cant see it but you can "feel" it...
+
+[[stamp your own foot]]
+[[try to look away]]
+[[try to look DEEPER]]
+YES YES ITS THERE I SEE IT I SEE IT [[GRAB]] [[IT]] [[NOW]]
+(text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT]
+(text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT]
+
+
+[[Its beautiful]]
+(text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT]
+(text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT] 
+[[Its beautiful]] 
+(text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT]
+(text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT]
+[[Its beautiful]] 
+I T S B E A U T I F U L  I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L 
+I T S B E A U T I F U L 
+I T S B E A U T I F U L 
+I T S B E A U T I F U L 
+I T S B E A U T I F U L 
+I T S B E A U T I F U L 
+I T S B E A U T I F U L 
+I T S B E A U T I F U L 
+I T S B E A U T I F U L 
+I T S B E A U T I F U L 
+I T S B E A U T I F U L 
+I T S B E A U T I F U L 
+I T S B E A U T I F U L 
+I T S B E A U T I F U L 
+I T S B E A U T I F U L 
+I T S B E A U T I F U L 
+I T S B E A U T I F U L 
+I T S B E A U T I F U L 
+
+and you are not.
+
+Ending.
+Upon reaching the ramen store you can see the prices on a [[black chalkboard]] out front and the patrons inside stuffing theyre faces as much as they possibly can. 
+
+You clutch your [[notebook]]
+
+And head [[Inside]]
+
+XL Ramen $4.00
+Only thing sale.
+come eat human food by humans.
+
+*you feel a sense of....confusion?*
+[[You reach THE ramen store]] 
+Your notebook that contains all the evidence and theories pertaining to the people who go missing at this very ramen store. 
+the newspaper clipping thats stuck onto one of the pages reads
+"A new ramen shop has opened up! its located in the alleyway next to genji sha petrol station! *an image is stuck with a paperclip showing a giant line going from inside the ramen store to all the way across the petrol station* at the time of broadcast we have no information on who owns the store, where it came from, or how it cropped up seemingly overnight! All this reporter knows is that this ramen is to die for!
+
+*you feel a sense of obvious foreshadowing*
+[[You reach THE ramen store]] 
+The manager shouts something at you as you walk inside, attempting to recreate a loud greeting sushi restaraunts often do, People are scarfing the food down more and more never ceasing, they dont even look human anymore.
+
+*This is an investigative area, here you can type in or select what you would like to do, be creative and try whatever you can think of! for this first mystery your goal is to search the ramen restaraunt and retrieve a sample of theyre food for analysis without eating any of it! good luck!*
+
+[[Greet the man behind the counter]] 
+[[Take in the area of the entrance]]
