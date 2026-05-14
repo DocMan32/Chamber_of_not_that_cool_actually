@@ -1,5 +1,5 @@
-Untitled
-                                                                Pie. 
+ito
+                                                                Ramen. 
                          
                          
                          
@@ -146,3 +146,107 @@ The manager shouts something at you as you walk inside, attempting to recreate a
 
 [[Greet the man behind the counter]] 
 [[Take in the area of the entrance]]
+
+(input-box:2bind $Pvar,"=X")
+
+[[submit]]
+Stepping forward cautiously, you approach the smiling man behind the counter, he stares forward at you with bated breath.
+//Hello! Welcome! Please please won't you have some of our delicious ramen!?//
+The man looks like he's never been more excited for your answer. His chest breathing heavily you notice the material of his outfit a bit more now, like his [[buttons]].
+
+[[No. Why the hell would i want your ramen! What are you doing to people?!]]
+
+[[Stare blankly]]
+
+[[Sure.]]
+
+[[No thank you,]]
+Looking around you observe the glass doors you opened to get in the red carpet with small blue diamonds covering the ground, a wooden counter with a smiling cook standing behind it staring at you expectantly. Ravenous customers in velvet booths and dining tables littered around the restaraunt, it looks jam packed full but somehow you feel like if you asked the staff would a find a seat for you.
+Taking in his appearance you notice more and more strange things, 
+for one the buttons on his bright white chef outfit are made out of wood. His black jet black hair having strands madded to his forehead, and his perfect white teeth. 
+you are slowly starting to think this isnt a he...
+but more of an it...
+You shout at the man behind the counter loudly forgetting where you are momentarily lost in the rage, feeling for the all the people that have gone missing and knowing this man has something to do with it and all he does is smile.
+The restaraunt falls silent, noone is eating anymore.
+theyre all...
+(text-colour:red)[''Staring.'']
+
+The man however is still [[smiling]] his face not having changed at all.
+You blankly stare at the man unsure of what to say in response, his smile fades quickly and returns his attention to overseeing the cashiers and cooks, you glance over the counter and spy a door which looks like it reads as "Pirate" 
+
+[[Get the cooks attention for questioning]]
+
+[[Go to the Pirate door]]
+
+[[Leave the restaraunt]]
+
+[[Inside]]
+//Wonderful! I shall get it prepared right away it should be done in fifteen years!!//
+[[Fifteen years?]]
+The mans shoulders slump a little hearing your response.
+// Well, er, still feel free to browse our menu in case you change your mind! //
+You nod and take a menu although you have Zero intention on eating here. 
+[[Inside]]
+The man blinks a few times his smile never ceasing before he finally comes to his senses and responds back 
+//OH my Apologies!!! I mean 15 minutes?//
+He says, with a hint of confusion, you get the sense He.....it....dosent grasp time very well.
+As the silence gets louder you look around noticing everyone staring at you, the once ravenous customers stopping everything even the baby's crying has ceased it too stares, not a flicker of emotion lights any of their faces,
+As you focus your gaze back on the man behind the counter you he--
+''SLAM''
+The door slams shut by itself.
+//People come in all the time!! They hunger so i feed them!//
+The man responds chirply
+The mans eyes still shut firmly in a bright smile that now fills you in dread, you notice his subtle head turn, the feeling of dozens of hands now suddenly apparent you feel every customer in the restaraunt lay theyre hand on your shoulders.
+
+[[Learn to smile]]
+[[Learn to smile]]
+[[Struggle]]
+[[Learn to smile]]
+[[Learn to smile]]
+[[Learn to smile]]
+[[Learn to smile]]
+You feel...as though you need to let them do their work, as if the fate of the world depends on it... 
+You let them claw at you their touch somewhat gentle suprisingly,
+[[This is good]]
+As you struggle and panic you manage to shake a ''few'' of them off in time but theres too many they crawl their hands around to your face their movements growing erratic and almost animalistic in their attempts to consume you.
+But they don't.
+They finish...whatever they were doing and simply all stare at you as you look up at them from the floor, the man from behind the counter's face slides into view seamlessly.
+He's floating.
+[[shit]]
+As you attempt to curse, you realize what they were doing as your hands dart aronud your face searching for it!
+your mouth is gone.
+There are no marks to ever suggest one was there in the first place, just a smooth surface and cheek bones stuck in static. You try to speak again and again and again but are met with nothing not a single word, 
+//What was that? I couldn't hear you?//
+The man behind you giggles as if he's just pulled a small prank. His hands come down to your face, stopping just short his hands cupping your cheeks, every bone in your body refusing to move you are rigid with fear, his eyes gaze deeply into yours until you notice his eyes, the iris, the insides, theres a worm, it devours planets like theyre nothing. spreading through space like a plauge unbeknownst to anyone, you see it snatch up your planet, your family, you.
+[[SNAP OUT OF IT!]]
+You blink rapidly and try to shake the thoughts away 
+
+The mans head has contorted his jaw a gaping maw three times larger than his head his eyes have stretched and warped to the sides of his head, dozens of sets of teeth lay inside his mouth saliva connecting the roof of his mouth to his tounges, and to the tip of your nose. The form immedialty switches back to a somewhat human form seeing you snap out of it. 
+//You will smile...dont worry...ill make you...//
+he mutters still keeping his perfect smile, 
+// S M I L E //
+As he commands the entire restaruant says it with him perfectly synchronized.
+// S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E  // 
+The room chants as his fingers press into where your mouth used to be and morphs it like clay pushing your cheek bones up so much you can feel the tears in your eyes form.
+// You shall cook fine // 
+The man says almost contemplatedly, 
+before he reaches up and grabs his mouth tearing it off his skin blood gushing out, as he holds you down with suprising force, he delicatley places the blood soaked mouth onto your face, and---WMIFKEDNIGMO44###MIKJN@NBHn@u Nn$%NMNJML.V,,SASS
+
+[[Feed]]
+Ending 2
+
+The worm must feed.
+This is good.
+Your mouth is completely gone. 
+Screaming only echoes inside your mind, tearing away at your face does nothing, you dont even see the cook glancing down at you.
+you dont even notice his transformation and his gigantic jaw opening, you dont notice the end of everything, you dont notice the thousands of screams that plague your canals or the hot blood rising and falling from your eyes as they roll back, all you see is space, and him. Him. The worm. The Deity. The cleanser. The feeder. It feeds on planets like theyre nothing, eating them, as it should. as HE should. 
+You Feel the coldness of your body.
+You Barely feel your mind drifting on.
+You scarcely feel you had to remember having memories.
+You dont feel.
+
+But....
+
+you could go for some ramen right about now.
+
+Ending 3
