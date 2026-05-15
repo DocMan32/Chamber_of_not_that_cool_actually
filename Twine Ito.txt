@@ -236,6 +236,11 @@ before he reaches up and grabs his mouth tearing it off his skin blood gushing o
 Ending 2
 
 The worm must feed.
+
+
+[[Start]] 
+or start from the ramen restarant.
+[[You reach THE ramen store]] 
 This is good.
 Your mouth is completely gone. 
 Screaming only echoes inside your mind, tearing away at your face does nothing, you dont even see the cook glancing down at you.
@@ -250,3 +255,13 @@ But....
 you could go for some ramen right about now.
 
 Ending 3
+The cook snaps his attention back at you his smile reappearing back in full.
+You prepare some questions to ask
+
+[[Q: Where do you get your ingredients?]]
+[[Q: Why do you smile like that?]]
+(if:(history: where its name contains "Feed")'s length >= 1)[[Q: Why do I keep thinking of worms? do you sell worms here?]]
+As you approach the door you notice the door didnt read "Pirate" after all, it said "Private".
+obviously.
+The door opens suprisingly easily, and swings open revealing a pitch black dark room, there are candles placed on the floor their flicker dont illuminate anything but themselves. 
+You feel around for a lightswitch trying to see your surroundings, your hand glides along the wall skimming the different materials that plaster the wall, sandpaperish textures until your fingers get intertwined with a slimy substance, 
