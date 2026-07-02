@@ -1,0 +1,29 @@
+Concept art for UI
+ - HUD
+ - 3 UI elements
+ - splash screen
+ - start screen
+ - gameplay mockup (fake screenshot of gameplay)
+ Each screen should contain UI elements.
+
+For HUD:
+ - Current Player Health
+ - Number of collectible items
+ - Time remaining for current level
+
+Flow charts:
+3 flowcharts that describe each functional element
+of the hud
+
+-- End Of Assessment 1
+
+Using one of the unreal templates
+dosent need to be a complete game (yeah right)
+must be playable and support player input on all target platforms (mobile)
+implement HUD with at least 3 features
+
+-- End Of Assessment 2 
+
+do tutorial
+
+-- End Of Assessment 3

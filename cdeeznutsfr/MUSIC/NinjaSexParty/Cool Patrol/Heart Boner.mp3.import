@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b43l47eqok4j7"
+path="res://.godot/imported/Heart Boner.mp3-abd69e2160ecd108079b78d9f9650a78.mp3str"
+
+[deps]
+
+source_file="res://MUSIC/NinjaSexParty/Cool Patrol/Heart Boner.mp3"
+dest_files=["res://.godot/imported/Heart Boner.mp3-abd69e2160ecd108079b78d9f9650a78.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

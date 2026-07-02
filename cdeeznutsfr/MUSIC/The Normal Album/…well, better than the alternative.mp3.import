@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://chudh8mbr1tsf"
+path="res://.godot/imported/…well, better than the alternative.mp3-815c8c655b3d2530e79f7d38f2707685.mp3str"
+
+[deps]
+
+source_file="res://MUSIC/The Normal Album/…well, better than the alternative.mp3"
+dest_files=["res://.godot/imported/…well, better than the alternative.mp3-815c8c655b3d2530e79f7d38f2707685.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

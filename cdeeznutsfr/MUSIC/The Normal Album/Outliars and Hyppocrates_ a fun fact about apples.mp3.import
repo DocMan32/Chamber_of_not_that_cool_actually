@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://chfpch74sg8ic"
+path="res://.godot/imported/Outliars and Hyppocrates_ a fun fact about apples.mp3-983f8c6d44ccf01712e4b5a103421d9c.mp3str"
+
+[deps]
+
+source_file="res://MUSIC/The Normal Album/Outliars and Hyppocrates_ a fun fact about apples.mp3"
+dest_files=["res://.godot/imported/Outliars and Hyppocrates_ a fun fact about apples.mp3-983f8c6d44ccf01712e4b5a103421d9c.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

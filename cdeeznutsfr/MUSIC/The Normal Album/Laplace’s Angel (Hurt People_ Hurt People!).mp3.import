@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bu3dugs3bd2ds"
+path="res://.godot/imported/Laplace’s Angel (Hurt People_ Hurt People!).mp3-bc96eded165bb660c3c70f99733de99e.mp3str"
+
+[deps]
+
+source_file="res://MUSIC/The Normal Album/Laplace’s Angel (Hurt People_ Hurt People!).mp3"
+dest_files=["res://.godot/imported/Laplace’s Angel (Hurt People_ Hurt People!).mp3-bc96eded165bb660c3c70f99733de99e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

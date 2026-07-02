@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bu3dugs3bd2ds"
+path="res://.godot/imported/Laplace’s Angel (Hurt People_ Hurt People!).mp3-a928b3b2f9a8523121a98847ae569572.mp3str"
+
+[deps]
+
+source_file="res://MUSIC/Will Wood/The Normal Album/Laplace’s Angel (Hurt People_ Hurt People!).mp3"
+dest_files=["res://.godot/imported/Laplace’s Angel (Hurt People_ Hurt People!).mp3-a928b3b2f9a8523121a98847ae569572.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

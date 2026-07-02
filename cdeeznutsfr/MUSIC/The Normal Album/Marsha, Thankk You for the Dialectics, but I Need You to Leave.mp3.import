@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://by4qjvwkh41n0"
+path="res://.godot/imported/Marsha, Thankk You for the Dialectics, but I Need You to Leave.mp3-bce8977e8736fcebcd0ad74293e85a0d.mp3str"
+
+[deps]
+
+source_file="res://MUSIC/The Normal Album/Marsha, Thankk You for the Dialectics, but I Need You to Leave.mp3"
+dest_files=["res://.godot/imported/Marsha, Thankk You for the Dialectics, but I Need You to Leave.mp3-bce8977e8736fcebcd0ad74293e85a0d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

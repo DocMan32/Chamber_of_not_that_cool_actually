@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dk41r1h78j0vf"
+path="res://.godot/imported/2econd 2ight 2eer (that was fun, goodbye.).mp3-868324a85c3932ac54746e50108105ef.mp3str"
+
+[deps]
+
+source_file="res://MUSIC/Will Wood/The Normal Album/2econd 2ight 2eer (that was fun, goodbye.).mp3"
+dest_files=["res://.godot/imported/2econd 2ight 2eer (that was fun, goodbye.).mp3-868324a85c3932ac54746e50108105ef.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
