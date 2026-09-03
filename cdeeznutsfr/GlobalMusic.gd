@@ -3,6 +3,19 @@ extends Window
 var music_files = []
 var playback_state = false
 
+
+
+
+func arraytostring(arr: Array) -> String:
+	var s = ""
+	for i in arr:
+		s += String(i)
+	return s
+	
+
+
+
+
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	

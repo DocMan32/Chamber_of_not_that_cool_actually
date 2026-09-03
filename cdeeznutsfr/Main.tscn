@@ -1,19 +1,19 @@
 [gd_scene format=4 uid="uid://cjerxeq6sq06o"]
 
-[ext_resource type="Script" uid="uid://b35ecmvl8nyqh" path="res://main.gd" id="1_r0du0"]
+[ext_resource type="Script" uid="uid://b35ecmvl8nyqh" path="res://Scripts/main.gd" id="1_r0du0"]
 [ext_resource type="Texture2D" uid="uid://d218ua4m4qu7d" path="res://CD_COVERS/Masterstrokes.png" id="4_3dxm6"]
-[ext_resource type="Script" uid="uid://d0q0fxxmtfnbp" path="res://MovingFront.gd" id="4_cm0pq"]
-[ext_resource type="Script" uid="uid://k7ph2fkdh8ch" path="res://ButtonMesh.gd" id="5_fos0i"]
+[ext_resource type="Script" uid="uid://d0q0fxxmtfnbp" path="res://Scripts/MovingFront.gd" id="4_cm0pq"]
+[ext_resource type="Script" uid="uid://k7ph2fkdh8ch" path="res://Scripts/ButtonMesh.gd" id="5_fos0i"]
 [ext_resource type="Texture2D" uid="uid://blcaf7t1tbelv" path="res://CD_COVERS/TrackList_MasterStrokes.png" id="6_5vvyt"]
 [ext_resource type="Script" uid="uid://c5eolt35ol675" path="res://shelf/source/model/selectCD.gd" id="7_03owx"]
-[ext_resource type="Texture2D" uid="uid://bwxxducrxhoso" path="res://cd-jewel-case/source/textures/24.png" id="9_c2ibq"]
+[ext_resource type="Texture2D" uid="uid://bwxxducrxhoso" path="res://CD_Case_3D_Model/source/textures/24.png" id="9_c2ibq"]
 [ext_resource type="Texture2D" uid="uid://5kkcc68ibkqa" path="res://CD_COVERS/AmericanSummerFront.png" id="10_j4qnp"]
-[ext_resource type="Texture2D" uid="uid://twdj0ph4v460" path="res://cd-jewel-case/source/textures/2cd43b_0242e604c61d4732ac33ede263ee117f_mv2.png" id="11_fpfj3"]
+[ext_resource type="Texture2D" uid="uid://twdj0ph4v460" path="res://CD_Case_3D_Model/source/textures/2cd43b_0242e604c61d4732ac33ede263ee117f_mv2.png" id="11_fpfj3"]
 [ext_resource type="Texture2D" uid="uid://b1sse672s4so5" path="res://AshDance1.png" id="12_c2ibq"]
 [ext_resource type="Texture2D" uid="uid://d0e35qh5dv05x" path="res://CD_COVERS/BackTracksAS.png" id="12_sc1dx"]
 [ext_resource type="Texture2D" uid="uid://dpmyp7c6bg861" path="res://AshDance2.png" id="13_j4qnp"]
 [ext_resource type="Texture2D" uid="uid://dccqvrehpdbff" path="res://CD_COVERS/SpineAS (2).png" id="13_kjvhd"]
-[ext_resource type="Script" uid="uid://cspo26jrvcrvf" path="res://DancingTime.gd" id="14_fpfj3"]
+[ext_resource type="Script" uid="uid://cspo26jrvcrvf" path="res://Scripts/DancingTime.gd" id="14_fpfj3"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_j8epf"]
 resource_name = "Rough Plastic"
@@ -766,7 +766,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.21170849, 1.2556021, -0.42
 mesh = SubResource("ArrayMesh_1g4to")
 
 [node name="Case Front" type="MeshInstance3D" parent="NSP_CASE/Case Back" unique_id=65283501]
-transform = Transform3D(-0.0062919147, 0.9986263, -0.05202203, -0.9999801, -0.0063004517, -1.044925e-07, -0.00032786684, 0.05202102, 0.99864584, -0.00063085556, 0, 1.1053243)
+transform = Transform3D(-0.0062919143, 0.99862623, -0.052022036, -0.9999801, -0.006300452, -1.0467838e-07, -0.00032786687, 0.05202102, 0.99864584, -0.00063085556, 0, 1.1053243)
 mesh = SubResource("ArrayMesh_f0xqn")
 surface_material_override/1 = SubResource("StandardMaterial3D_lgr22")
 script = ExtResource("4_cm0pq")
@@ -802,7 +802,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.21412683, 1.2613404, -0.03
 shape = SubResource("BoxShape3D_trn2v")
 
 [node name="Shelf" type="Node3D" parent="." unique_id=873580323]
-transform = Transform3D(-0.9973336, 0, 0.07297713, 0, 1, 0, -0.07297713, 0, -0.9973336, -2.015785, -1.1920929e-07, -2.3502874)
+transform = Transform3D(-0.9973335, 0, 0.072977126, 0, 1, 0, -0.072977126, 0, -0.9973335, -2.015785, -1.1920929e-07, -2.3502874)
 script = ExtResource("7_03owx")
 
 [node name="pCube1" type="MeshInstance3D" parent="Shelf" unique_id=180762315]

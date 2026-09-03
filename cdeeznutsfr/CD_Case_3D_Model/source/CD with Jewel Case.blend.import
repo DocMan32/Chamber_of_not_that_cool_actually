@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bw6xojql0v7f3"
-path="res://.godot/imported/CD with Jewel Case.blend-179ba7b7971cbc51036c6a3baf11ef23.scn"
+path="res://.godot/imported/CD with Jewel Case.blend-a8bffceb2d3d0907306d18723ec7a4b7.scn"
 
 [deps]
 
-source_file="res://cd-jewel-case/source/CD with Jewel Case.blend"
-dest_files=["res://.godot/imported/CD with Jewel Case.blend-179ba7b7971cbc51036c6a3baf11ef23.scn"]
+source_file="res://CD_Case_3D_Model/source/CD with Jewel Case.blend"
+dest_files=["res://.godot/imported/CD with Jewel Case.blend-a8bffceb2d3d0907306d18723ec7a4b7.scn"]
 
 [params]
 

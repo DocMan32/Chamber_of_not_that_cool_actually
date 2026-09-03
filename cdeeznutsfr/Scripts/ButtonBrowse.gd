@@ -1,9 +1,8 @@
-extends AnimatedSprite2D
+extends Button
 
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	RhythmNotifier.beats()
 	pass # Replace with function body.
 
 

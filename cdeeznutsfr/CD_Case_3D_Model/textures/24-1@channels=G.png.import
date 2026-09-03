@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://gf3h0moe70jo"
-path="res://.godot/imported/24-1@channels=G.png-801048b1158a9b1c2527f20f1b4bc57d.ctex"
+path="res://.godot/imported/24-1@channels=G.png-6ffdda34d36997c12f0ae865d6fa24a0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://cd-jewel-case/textures/24-1@channels=G.png"
-dest_files=["res://.godot/imported/24-1@channels=G.png-801048b1158a9b1c2527f20f1b4bc57d.ctex"]
+source_file="res://CD_Case_3D_Model/textures/24-1@channels=G.png"
+dest_files=["res://.godot/imported/24-1@channels=G.png-6ffdda34d36997c12f0ae865d6fa24a0.ctex"]
 
 [params]
 

@@ -1,0 +1,433 @@
+:: StoryTitle
+ito
+
+
+:: StoryData
+{
+  "ifid": "C5E62847-41A4-4433-8FC2-C629F1D814AD",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Start",
+  "tag-colors": {
+    "Beginning": "blue",
+    "Important-choice": "red",
+    "flavour-text": "blue",
+    "Notebook-Entry": "purple",
+    "goofed-up": "purple",
+    "important-choice": "red",
+    "Ending": "green"
+  },
+  "zoom": 1
+}
+
+
+:: ''attempt'' to blink. {"position":"2900,800","size":"100,100"}
+You try your hardest to blink but it feels like your entire body is activley fighting against you, you want to see, you NEED to see.
+
+The more your eyes gaze into the infinite the more you feel the surrounding area change and warp, you cant see it but you can "feel" it...
+
+[[stamp your own foot]]
+[[try to look away]]
+[[try to look DEEPER]]
+
+
+:: Feed [Ending] {"position":"3300,2300","size":"100,100"}
+Ending 2
+
+The worm must feed.
+
+
+[[Start]] 
+or start from the ramen restarant.
+[[You reach THE ramen store]] 
+
+
+:: Fifteen years? {"position":"3500,1700","size":"100,100"}
+The man blinks a few times his smile never ceasing before he finally comes to his senses and responds back 
+//OH my Apologies!!! I mean 15 minutes?//
+He says, with a hint of confusion, you get the sense He.....it....dosent grasp time very well.
+
+
+
+:: GRAB {"position":"2300,800","size":"100,100"}
+(text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT]
+(text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT]
+
+
+[[Its beautiful]]
+
+
+:: Get the cooks attention for questioning {"position":"3700,1800","size":"100,100"}
+The cook snaps his attention back at you his smile reappearing back in full.
+You prepare some questions to ask
+
+[[Q: Where do you get your ingredients?]]
+[[Q: Why do you smile like that?]]
+(if:(history: where its name contains "Feed")'s length >= 1)[[Q: Why do I keep thinking of worms? do you sell worms here?]]
+
+
+:: Go to the Pirate door {"position":"3900,1800","size":"100,100"}
+As you approach the door you notice the door didnt read "Pirate" after all, it said "Private".
+obviously.
+The door opens suprisingly easily, and swings open revealing a pitch black dark room, there are candles placed on the floor their flicker dont illuminate anything but themselves. 
+You feel around for a lightswitch trying to see your surroundings, your hand glides along the wall skimming the different materials that plaster the wall, sandpaperish textures until your fingers get intertwined with a slimy substance, 
+
+
+:: Greet the man behind the counter {"position":"3400,1300","size":"100,100"}
+Stepping forward cautiously, you approach the smiling man behind the counter, he stares forward at you with bated breath.
+//Hello! Welcome! Please please won't you have some of our delicious ramen!?//
+The man looks like he's never been more excited for your answer. His chest breathing heavily you notice the material of his outfit a bit more now, like his [[buttons]].
+
+[[No. Why the hell would i want your ramen! What are you doing to people?!]]
+
+[[Stare blankly]]
+
+[[Sure.]]
+
+[[No thank you,]]
+
+
+:: IT {"position":"2300,700","size":"100,100"}
+(text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT]
+(text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT] 
+[[Its beautiful]] 
+
+
+:: Ignore them, remain focused. [Important-choice] {"position":"2900,400","size":"100,100"}
+(text-rotate-x:8)+(text-rotate-y:45)["Hello?"]
+you hear someone ask from behind.
+[[turn around]] 
+[[Must've been my imagination]]
+
+
+
+:: Inside {"position":"3400,1100","size":"100,100"}
+The manager shouts something at you as you walk inside, attempting to recreate a loud greeting sushi restaraunts often do, People are scarfing the food down more and more never ceasing, they dont even look human anymore.
+
+*This is an investigative area, here you can type in or select what you would like to do, be creative and try whatever you can think of! for this first mystery your goal is to search the ramen restaraunt and retrieve a sample of theyre food for analysis without eating any of it! good luck!*
+
+[[Greet the man behind the counter]] 
+[[Take in the area of the entrance]]
+
+(input-box:2bind $Pvar,"=X")
+
+[[submit]]
+
+
+:: Its beautiful [Ending] {"position":"2100,800","size":"100,100"}
+I T S B E A U T I F U L  I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L I T S B E A U T I F U L 
+I T S B E A U T I F U L 
+I T S B E A U T I F U L 
+I T S B E A U T I F U L 
+I T S B E A U T I F U L 
+I T S B E A U T I F U L 
+I T S B E A U T I F U L 
+I T S B E A U T I F U L 
+I T S B E A U T I F U L 
+I T S B E A U T I F U L 
+I T S B E A U T I F U L 
+I T S B E A U T I F U L 
+I T S B E A U T I F U L 
+I T S B E A U T I F U L 
+I T S B E A U T I F U L 
+I T S B E A U T I F U L 
+I T S B E A U T I F U L 
+I T S B E A U T I F U L 
+
+and you are not.
+
+Ending.
+
+
+
+:: Learn to smile {"position":"2900,1700","size":"100,100"}
+You feel...as though you need to let them do their work, as if the fate of the world depends on it... 
+You let them claw at you their touch somewhat gentle suprisingly,
+[[This is good]]
+
+
+:: Leave the restaraunt {"position":"4100,1800","size":"100,100"}
+
+
+
+:: Must've been my imagination {"position":"3000,600","size":"100,100"}
+You trudge forth ignoring every single instinct to turn around. you feel that you made a horrible mistake even the wind feels like its mocking you.
+
+You dont hear the voice again.
+
+[[You reach THE ramen store]]
+
+
+:: NOW {"position":"2300,900","size":"100,100"}
+(text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT]
+(text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT](text-rotate-x:8)+(text-rotate-y:45)[GRAB IT NOW]
+(text-rotate-y:70)+(text-rotate-z:21)[GRAB IT GRAB IT GRAB IT]
+[[Its beautiful]] 
+
+
+:: No thank you, {"position":"3300,1500","size":"100,100"}
+The mans shoulders slump a little hearing your response.
+// Well, er, still feel free to browse our menu in case you change your mind! //
+You nod and take a menu although you have Zero intention on eating here. 
+[[Inside]]
+
+
+:: No. Why the hell would i want your ramen! What are you doing to people?! {"position":"3100,1500","size":"100,100"}
+You shout at the man behind the counter loudly forgetting where you are momentarily lost in the rage, feeling for the all the people that have gone missing and knowing this man has something to do with it and all he does is smile.
+The restaraunt falls silent, noone is eating anymore.
+theyre all...
+(text-colour:red)[''Staring.'']
+
+The man however is still [[smiling]] his face not having changed at all.
+
+
+
+:: Q: Where do you get your ingredients? {"position":"4200,1400","size":"100,100"}
+
+
+
+:: Q: Why do I keep thinking of worms? do you sell worms here? {"position":"4400,1400","size":"100,100"}
+
+
+
+:: Q: Why do you smile like that? {"position":"4300,1400","size":"100,100"}
+
+
+
+:: SNAP OUT OF IT! {"position":"3100,2300","size":"100,100"}
+You blink rapidly and try to shake the thoughts away 
+
+The mans head has contorted his jaw a gaping maw three times larger than his head his eyes have stretched and warped to the sides of his head, dozens of sets of teeth lay inside his mouth saliva connecting the roof of his mouth to his tounges, and to the tip of your nose. The form immedialty switches back to a somewhat human form seeing you snap out of it. 
+//You will smile...dont worry...ill make you...//
+he mutters still keeping his perfect smile, 
+// S M I L E //
+As he commands the entire restaruant says it with him perfectly synchronized.
+// S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E S M I L E  // 
+The room chants as his fingers press into where your mouth used to be and morphs it like clay pushing your cheek bones up so much you can feel the tears in your eyes form.
+// You shall cook fine // 
+The man says almost contemplatedly, 
+before he reaches up and grabs his mouth tearing it off his skin blood gushing out, as he holds you down with suprising force, he delicatley places the blood soaked mouth onto your face, and---WMIFKEDNIGMO44###MIKJN@NBHn@u Nn$%NMNJML.V,,SASS
+
+[[Feed]]
+
+
+:: Stare blankly {"position":"3900,1500","size":"100,100"}
+You blankly stare at the man unsure of what to say in response, his smile fades quickly and returns his attention to overseeing the cashiers and cooks, you glance over the counter and spy a door which looks like it reads as "Pirate" 
+
+[[Get the cooks attention for questioning]]
+
+[[Go to the Pirate door]]
+
+[[Leave the restaraunt]]
+
+[[Inside]]
+
+
+:: Start [Beginning] {"position":"2700,0","size":"100,100"}
+                                                                Ramen. 
+                         
+                         
+                         
+                        
+You walk down the street signs for cheap ramen restaraunts are sprinkled through the streets, [[several missing posters]] that show the faces of mysteries.
+You fix your [[Tie]] in nervousness, you can feel your forehead dripping with sweat, your lucky pen shifting around in your breast pocket. The weight of your notebook in your bag.
+
+
+:: Struggle {"position":"3100,1900","size":"100,100"}
+As you struggle and panic you manage to shake a ''few'' of them off in time but theres too many they crawl their hands around to your face their movements growing erratic and almost animalistic in their attempts to consume you.
+But they don't.
+They finish...whatever they were doing and simply all stare at you as you look up at them from the floor, the man from behind the counter's face slides into view seamlessly.
+He's floating.
+[[shit]]
+
+
+:: Sure. {"position":"3500,1500","size":"100,100"}
+//Wonderful! I shall get it prepared right away it should be done in fifteen years!!//
+[[Fifteen years?]]
+
+
+:: Take in the area of the entrance {"position":"3600,1100","size":"100,100"}
+Looking around you observe the glass doors you opened to get in the red carpet with small blue diamonds covering the ground, a wooden counter with a smiling cook standing behind it staring at you expectantly. Ravenous customers in velvet booths and dining tables littered around the restaraunt, it looks jam packed full but somehow you feel like if you asked the staff would a find a seat for you.
+
+
+
+:: This is good [Ending] {"position":"2900,1900","size":"100,100"}
+This is good.
+Your mouth is completely gone. 
+Screaming only echoes inside your mind, tearing away at your face does nothing, you dont even see the cook glancing down at you.
+you dont even notice his transformation and his gigantic jaw opening, you dont notice the end of everything, you dont notice the thousands of screams that plague your canals or the hot blood rising and falling from your eyes as they roll back, all you see is space, and him. Him. The worm. The Deity. The cleanser. The feeder. It feeds on planets like theyre nothing, eating them, as it should. as HE should. 
+You Feel the coldness of your body.
+You Barely feel your mind drifting on.
+You scarcely feel you had to remember having memories.
+You dont feel.
+
+But....
+
+you could go for some ramen right about now.
+
+Ending 3
+
+
+:: Tie [flavour-text] {"position":"2600,200","size":"100,100"}
+Your dark black tie, its got navy blue stains around the top and always looks somewhat desheveled. 
+You still rememeber the first day you got this tie, you had just bought your first apartment in Sakanua the rent was good and the location was snobby so you decided to buy a tie as a joke but liked how it looked.
+
+
+
+:: You reach THE ramen store {"position":"3400,700","size":"100,100"}
+Upon reaching the ramen store you can see the prices on a [[black chalkboard]] out front and the patrons inside stuffing theyre faces as much as they possibly can. 
+
+You clutch your [[notebook]]
+
+And head [[Inside]]
+
+
+
+
+:: black chalkboard [flavour-text] {"position":"3600,500","size":"100,100"}
+XL Ramen $4.00
+Only thing sale.
+come eat human food by humans.
+
+*you feel a sense of....confusion?*
+[[You reach THE ramen store]] 
+
+
+:: buttons [flavour-text] {"position":"3100,1200","size":"100,100"}
+Taking in his appearance you notice more and more strange things, 
+for one the buttons on his bright white chef outfit are made out of wood. His black jet black hair having strands madded to his forehead, and his perfect white teeth. 
+you are slowly starting to think this isnt a he...
+but more of an it...
+
+
+:: is there something in there? [goofed-up] {"position":"2700,800","size":"100,100"}
+Oh yes. yes you see it now, theyre black hair falls in front of the void slightly obscuring it from your view, but you see "it" right? its so close! its right [[there!]] 
+
+
+:: notebook [flavour-text Notebook-Entry] {"position":"3600,700","size":"100,100"}
+Your notebook that contains all the evidence and theories pertaining to the people who go missing at this very ramen store. 
+the newspaper clipping thats stuck onto one of the pages reads
+"A new ramen shop has opened up! its located in the alleyway next to genji sha petrol station! *an image is stuck with a paperclip showing a giant line going from inside the ramen store to all the way across the petrol station* at the time of broadcast we have no information on who owns the store, where it came from, or how it cropped up seemingly overnight! All this reporter knows is that this ramen is to die for!
+
+*you feel a sense of obvious foreshadowing*
+[[You reach THE ramen store]] 
+
+
+:: several missing posters [Important-choice] {"position":"2700,200","size":"100,100"}
+The posters show the people you've been tracking down clues about for some time now, the oldest one has moss covering the corners of the poster, and there appears to be [[something on the oldest posters]] down the end of the wall? [[Ignore them, remain focused.]]
+
+
+:: shit {"position":"3100,2100","size":"100,100"}
+As you attempt to curse, you realize what they were doing as your hands dart aronud your face searching for it!
+your mouth is gone.
+There are no marks to ever suggest one was there in the first place, just a smooth surface and cheek bones stuck in static. You try to speak again and again and again but are met with nothing not a single word, 
+//What was that? I couldn't hear you?//
+The man behind you giggles as if he's just pulled a small prank. His hands come down to your face, stopping just short his hands cupping your cheeks, every bone in your body refusing to move you are rigid with fear, his eyes gaze deeply into yours until you notice his eyes, the iris, the insides, theres a worm, it devours planets like theyre nothing. spreading through space like a plauge unbeknownst to anyone, you see it snatch up your planet, your family, you.
+[[SNAP OUT OF IT!]]
+
+
+
+:: smiling {"position":"3100,1700","size":"100,100"}
+As the silence gets louder you look around noticing everyone staring at you, the once ravenous customers stopping everything even the baby's crying has ceased it too stares, not a flicker of emotion lights any of their faces,
+As you focus your gaze back on the man behind the counter you he--
+''SLAM''
+The door slams shut by itself.
+//People come in all the time!! They hunger so i feed them!//
+The man responds chirply
+The mans eyes still shut firmly in a bright smile that now fills you in dread, you notice his subtle head turn, the feeling of dozens of hands now suddenly apparent you feel every customer in the restaraunt lay theyre hand on your shoulders.
+
+[[Learn to smile]]
+[[Learn to smile]]
+[[Struggle]]
+[[Learn to smile]]
+[[Learn to smile]]
+[[Learn to smile]]
+[[Learn to smile]]
+
+
+
+:: something on the oldest posters [important-choice] {"position":"2700,400","size":"100,100"}
+Upon closer inspection you notice that the faces of the oldest posters have black voids where their face used to be completely removing all features of their faces. 
+you feel very unsettled...and decide to step away.
+
+[[several missing posters]]
+
+
+:: stamp your own foot {"position":"2900,1000","size":"100,100"}
+
+
+
+:: submit {"position":"3600,1000","size":"100,100"}
+
+
+
+:: there! {"position":"2500,800","size":"100,100"}
+YES YES ITS THERE I SEE IT I SEE IT [[GRAB]] [[IT]] [[NOW]]
+
+
+:: try to look DEEPER {"position":"2700,1000","size":"100,100"}
+
+
+
+:: try to look away {"position":"3100,1000","size":"100,100"}
+
+
+
+:: turn around {"position":"2800,600","size":"100,100"}
+Yout turn around and find a woman standing inches from your face, a caveat where her face should be what are you even looking at? (if:(history: where its name contains "something on the oldest posters")'s length >= 1)[Just like the posters you saw earlirer!!]
+This was the last thought you have before your entire body is filled with terror. 
+[[is there something in there?]] 
+[[''attempt'' to blink.]] 

@@ -1,6 +1,6 @@
 [gd_scene format=4 uid="uid://ck40ej7co80m1"]
 
-[ext_resource type="PackedScene" uid="uid://bw6xojql0v7f3" path="res://cd-jewel-case/source/CD with Jewel Case.blend" id="1_jhswx"]
+[ext_resource type="PackedScene" uid="uid://bw6xojql0v7f3" path="res://CD_Case_3D_Model/source/CD with Jewel Case.blend" id="1_jhswx"]
 [ext_resource type="Script" uid="uid://cuq4h2xho8rei" path="res://CD_Scenes/AS_MouseMove.gd" id="2_5chbt"]
 [ext_resource type="Texture2D" uid="uid://5kkcc68ibkqa" path="res://CD_COVERS/AmericanSummerFront.png" id="2_w55f1"]
 [ext_resource type="Texture2D" uid="uid://d0e35qh5dv05x" path="res://CD_COVERS/BackTracksAS.png" id="3_5chbt"]
